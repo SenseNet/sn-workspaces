@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentType name="DocumentWorkspaceFolder" parentType="Folder" handler="SenseNet.ContentRepository.Folder" xmlns="http://schemas.sensenet.com/SenseNet/ContentRepository/ContentTypeDefinition">
+  <DisplayName>$Ctd-DocumentWorkspaceFolder,DisplayName</DisplayName>
+  <Description>$Ctd-DocumentWorkspaceFolder,Description</Description>
+  <Icon>Folder</Icon>
+  <AllowedChildTypes>DocumentWorkspace,DocumentWorkspaceFolder</AllowedChildTypes>
+  <Fields />
+</ContentType>

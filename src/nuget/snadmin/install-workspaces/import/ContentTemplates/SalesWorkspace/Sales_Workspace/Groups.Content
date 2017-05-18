@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentMetaData>
+  <ContentType>SystemFolder</ContentType>
+  <ContentName>Groups</ContentName>
+  <Fields>
+    <DisplayName><![CDATA[$ContentTemplates,Groups]]></DisplayName>
+    <Hidden>true</Hidden>
+    <AllowedChildTypes>Group</AllowedChildTypes>
+  </Fields>
+  <Permissions>
+    <Clear />
+    <Break />
+    <Identity path="/Root/ContentTemplates/SalesWorkspace/Sales_Workspace/Groups/Owners">
+      <See>Allow</See>
+      <Open>Allow</Open>
+      <OpenMinor>Allow</OpenMinor>
+      <Save>Allow</Save>
+      <Publish>Allow</Publish>
+      <ForceCheckin>Allow</ForceCheckin>
+      <AddNew>Allow</AddNew>
+      <Approve>Allow</Approve>
+      <Delete>Allow</Delete>
+      <RecallOldVersion>Allow</RecallOldVersion>
+      <DeleteOldVersion>Allow</DeleteOldVersion>
+      <SeePermissions>Allow</SeePermissions>
+      <SetPermissions>Allow</SetPermissions>
+      <RunApplication>Allow</RunApplication>
+      <ManageListsAndWorkspaces>Allow</ManageListsAndWorkspaces>
+    </Identity>
+    <Identity path="/Root/ContentTemplates/SalesWorkspace/Sales_Workspace/Groups/Members">
+      <See>Allow</See>
+      <Open>Allow</Open>
+      <RunApplication>Allow</RunApplication>
+    </Identity>
+    <Identity path="/Root/ContentTemplates/SalesWorkspace/Sales_Workspace/Groups/Visitors">
+      <See>Allow</See>
+      <Open>Allow</Open>
+      <RunApplication>Allow</RunApplication>
+    </Identity>
+  </Permissions>
+</ContentMetaData>

@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="view.xslt"?>
+<Resources>
+  <ResourceClass name="Ctd-ProjectWorkspace">
+    <Languages>
+      <Language cultureName="en">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Project workspace</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>A workspace for project-oriented cooperation.</value>
+        </data>
+        <data name="Completion-DisplayName" xml:space="preserve">
+          <value>Completion</value>
+        </data>
+        <data name="ClientContact-DisplayName" xml:space="preserve">
+          <value>Client contact</value>
+        </data>
+        <data name="ClientContact-Description" xml:space="preserve">
+          <value>The person who is responsible for the project</value>
+        </data>
+        <data name="WebsiteUrl-DisplayName" xml:space="preserve">
+          <value>Website url</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Projekt munkaterület</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>Projektek kezelésére szolgáló munkaterület (workspace).</value>
+        </data>
+        <data name="Completion-DisplayName" xml:space="preserve">
+          <value>Készültség</value>
+        </data>
+        <data name="ClientContact-DisplayName" xml:space="preserve">
+          <value>Ügyféloldali projektfelelős</value>
+        </data>
+        <data name="ClientContact-Description" xml:space="preserve">
+          <value></value>
+        </data>
+        <data name="WebsiteUrl-DisplayName" xml:space="preserve">
+          <value>Weboldal url-je</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="Ctd-ProjectWorkspaceFolder">
+    <Languages>
+      <Language cultureName="en">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Project Workspace Folder</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>This is the container type for Project Workspace.</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Projekt munkaterület mappa</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>Projekt munkaterületek gyüjtője.</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+</Resources>

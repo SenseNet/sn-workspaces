@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentMetaData>
+  <ContentType>CustomList</ContentType>
+  <ContentName>CustomList</ContentName>
+  <Fields>
+    <DisplayName><![CDATA[$ContentTemplates,CustomList]]></DisplayName>
+    <DefaultView><![CDATA[Default.ascx]]></DefaultView>
+    <AllowedChildTypes>CustomListItem</AllowedChildTypes>
+  </Fields>
+  <Permissions>
+    <Clear />
+  </Permissions>
+</ContentMetaData>

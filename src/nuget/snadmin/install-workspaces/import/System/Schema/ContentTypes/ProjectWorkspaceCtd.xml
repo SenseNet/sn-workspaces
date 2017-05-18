@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentType name="ProjectWorkspace" parentType="Workspace" handler="SenseNet.ContentRepository.Workspaces.Workspace" xmlns="http://schemas.sensenet.com/SenseNet/ContentRepository/ContentTypeDefinition">
+  <DisplayName>$Ctd-ProjectWorkspace,DisplayName</DisplayName>
+  <Description>$Ctd-ProjectWorkspace,Description</Description>
+  <Icon>workspace-project</Icon>
+  <AllowedChildTypes>Folder,DocumentLibrary,ImageLibrary,EventList,MemoList,LinkList,TaskList,CustomList</AllowedChildTypes>
+  <Fields>
+    <Field name="Completion" type="Number">
+      <DisplayName>$Ctd-ProjectWorkspace,Completion-DisplayName</DisplayName>
+      <Configuration>
+        <ShowAsPercentage>true</ShowAsPercentage>
+        <MinValue>0</MinValue>
+        <MaxValue>1</MaxValue>
+        <Digits>2</Digits>
+      </Configuration>
+    </Field>
+  </Fields>
+</ContentType>

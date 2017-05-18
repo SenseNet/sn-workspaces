@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentMetaData>
+  <ContentType>TaskList</ContentType>
+  <ContentName>Tasks</ContentName>
+  <Fields>
+    <DisplayName><![CDATA[$ContentTemplates,Tasks]]></DisplayName>
+    <DefaultView><![CDATA[Default.ascx]]></DefaultView>
+  </Fields>
+  <Permissions>
+    <Clear />
+  </Permissions>
+</ContentMetaData>

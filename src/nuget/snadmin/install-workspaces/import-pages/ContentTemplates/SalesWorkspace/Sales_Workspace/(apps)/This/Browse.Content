@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentMetaData>
+  <ContentType>Page</ContentType>
+  <ContentName>Browse</ContentName>
+  <Fields>
+    <PageTemplateNode>
+      <Path>/Root/Global/pagetemplates/sn-layout-intra.html</Path>
+    </PageTemplateNode>
+    <Binary attachment="Browse.aspx" />
+    <PersonalizationSettings attachment="Browse.PersonalizationSettings" />
+    <DisplayName><![CDATA[$Action,Browse]]></DisplayName>
+    <Icon><![CDATA[browse]]></Icon>
+    <RequiredPermissions>Open</RequiredPermissions>
+    <VersioningMode>1</VersioningMode>
+    <InheritableVersioningMode>1</InheritableVersioningMode>
+    <ApprovingMode>1</ApprovingMode>
+    <InheritableApprovingMode>1</InheritableApprovingMode>
+  </Fields>
+  <Permissions>
+    <Clear />
+    <Identity path="/Root/ContentTemplates/SalesWorkspace/Sales_Workspace/Groups/Members">
+      <RunApplication>Allowed</RunApplication>
+    </Identity>
+    <Identity path="/Root/ContentTemplates/SalesWorkspace/Sales_Workspace/Groups/Visitors">
+      <RunApplication>Allowed</RunApplication>
+    </Identity>
+    </Permissions>
+</ContentMetaData>

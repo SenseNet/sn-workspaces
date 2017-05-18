@@ -1,0 +1,31 @@
+<Package type='Tool'>
+  <Id>SenseNet.Workspaces</Id>
+  <Description>sensenet ECM Workspaces 7.0 (beta)</Description>
+  <ReleaseDate>2017-04-05</ReleaseDate>
+  <Version>7.0.0</Version>
+  <Dependencies>
+    <Dependency id='SenseNet.Services' minVersion='7.0.0' />
+  </Dependencies>
+  <Steps>
+    <Phase>
+      <StartRepository startWorkflowEngine="false" />      
+
+      <Import target="/Root" LogLevel="Verbose" source="import" />
+	  
+	  <IfComponentExists>
+		<Components>
+			<Component id="SenseNet.WebPages" minVersion="7.0.0" />
+		</Components>
+		<Then>
+			<Trace>WebPages component found, importing views and pages...</Trace>
+			<Import target="/Root" LogLevel="Verbose" source="import-pages" />
+		</Then>
+		<Else>
+			<Trace>WebPages component not found, views and pages are not imported.</Trace>
+		</Else>
+	  </IfComponentExists>
+	  
+	  <EditAllowedChildTypes contentType="PortalRoot" add="DocumentWorkspaceFolder,DocumentWorkspace,ProjectWorkspaceFolder,ProjectWorkspace,SalesWorkspaceFolder,SalesWorkspace" />	  
+    </Phase>
+  </Steps>
+</Package>

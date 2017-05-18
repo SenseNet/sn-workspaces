@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentType name="SalesWorkspace" parentType="Workspace" handler="SenseNet.ContentRepository.Workspaces.Workspace" xmlns="http://schemas.sensenet.com/SenseNet/ContentRepository/ContentTypeDefinition">
+  <DisplayName>$Ctd-SalesWorkspace,DisplayName</DisplayName>
+  <Description>$Ctd-SalesWorkspace,Description</Description>
+  <Icon>workspace-sales</Icon>
+  <AllowedChildTypes>Folder,DocumentLibrary,ImageLibrary,EventList,MemoList,LinkList,TaskList,CustomList</AllowedChildTypes>
+  <Fields>
+    <Field name="Manager" type="Reference">
+      <DisplayName>$Ctd-SalesWorkspace,Manager-DisplayName</DisplayName>
+    </Field>
+    <Field name="Customer" type="LongText">
+      <DisplayName>$Ctd-SalesWorkspace,Customer-DisplayName</DisplayName>
+    </Field>
+    <Field name="Description" type="LongText"></Field>
+    <Field name="ExpectedRevenue" type="Currency">
+      <DisplayName>$Ctd-SalesWorkspace,ExpectedRevenue-DisplayName</DisplayName>
+      <Configuration>
+        <MinValue>0</MinValue>
+        <Format>en-US</Format>
+        <Digits>0</Digits>
+      </Configuration>
+    </Field>
+    <Field name="ChanceOfWinning" type="Number">
+      <DisplayName>$Ctd-SalesWorkspace,ChanceOfWinning-DisplayName</DisplayName>
+      <Configuration>
+        <Digits>2</Digits>
+        <MinValue>0</MinValue>
+        <MaxValue>1</MaxValue>
+        <ShowAsPercentage>true</ShowAsPercentage>
+      </Configuration>
+    </Field>
+    <Field name="StartDate" type="DateTime">
+      <DisplayName>$Ctd-SalesWorkspace,StartDate-DisplayName</DisplayName>
+      <Configuration>
+        <DateTimeMode>DateAndTime</DateTimeMode>
+        <DefaultValue>[Script:jScript] DateTime.UtcNow; [/Script]</DefaultValue>
+      </Configuration>
+    </Field>
+    <Field name="Deadline" type="DateTime">
+      <DisplayName>$Ctd-SalesWorkspace,Deadline-DisplayName</DisplayName>
+      <Configuration>
+        <DefaultValue>[Script:jScript] DateTime.UtcNow.AddDays(7); [/Script]</DefaultValue>
+    </Configuration>
+    </Field>
+    <Field name="Contacts" type="LongText">
+      <DisplayName>$Ctd-SalesWorkspace,Contacts-DisplayName</DisplayName>
+    </Field>
+    <Field name="Notes" type="LongText">
+      <DisplayName>$Ctd-SalesWorkspace,Notes-DisplayName</DisplayName>
+    </Field>
+    <Field name="Completion" type="Number">
+      <DisplayName>$Ctd-SalesWorkspace,Completion-DisplayName</DisplayName>
+      <Configuration>
+        <ShowAsPercentage>true</ShowAsPercentage>
+        <MinValue>0</MinValue>
+        <MaxValue>1</MaxValue>
+        <Digits>2</Digits>
+      </Configuration>
+    </Field>
+    <Field name="ContractSigned" type="Boolean">
+      <DisplayName>$Ctd-SalesWorkspace,ContractSigned-DisplayName</DisplayName>
+    </Field>
+    <Field name="ContractSignedDate" type="DateTime">
+      <DisplayName>$Ctd-SalesWorkspace,ContractSignedDate-DisplayName</DisplayName>
+      <Configuration>
+        <DateTimeMode>DateAndTime</DateTimeMode>
+      </Configuration>
+    </Field>
+  </Fields>
+</ContentType>
