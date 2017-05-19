@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentType name="BlogPost" parentType="ListItem" handler="SenseNet.Portal.BlogPost" xmlns="http://schemas.sensenet.com/SenseNet/ContentRepository/ContentTypeDefinition">
+  <DisplayName>$Ctd-BlogPost,DisplayName</DisplayName>
+  <Description>$Ctd-BlogPost,Description</Description>
+  <Icon>WikiArticle</Icon>
+  <Fields>
+    <Field name="DisplayName" type="ShortText">
+      <DisplayName>$Ctd-BlogPost,DisplayName-DisplayName</DisplayName>
+      <Description>$Ctd-BlogPost,DisplayName-Description</Description>
+      <Configuration>
+        <Compulsory>true</Compulsory>
+        <ControlHint>sn:DisplayName</ControlHint>
+      </Configuration>
+    </Field>
+    <Field name="LeadingText" type="LongText">
+      <DisplayName>$Ctd-BlogPost,LeadingText-DisplayName</DisplayName>
+      <Indexing>
+        <Analyzer>Lucene.Net.Analysis.Standard.StandardAnalyzer</Analyzer>
+      </Indexing>
+      <Configuration>
+        <Compulsory>true</Compulsory>
+        <ControlHint>sn:RichText</ControlHint>
+      </Configuration>
+    </Field>
+    <Field name="BodyText" type="LongText">
+      <DisplayName>$Ctd-BlogPost,BodyText-DisplayName</DisplayName>
+      <Indexing>
+        <Analyzer>Lucene.Net.Analysis.Standard.StandardAnalyzer</Analyzer>
+      </Indexing>
+      <Configuration>
+        <ControlHint>sn:RichText</ControlHint>
+      </Configuration>
+    </Field>
+    <Field name="IsPublished" type="Boolean">
+      <DisplayName>$Ctd-BlogPost,Published-DisplayName</DisplayName>
+      <Description>$Ctd-BlogPost,Published-Description</Description>
+    </Field>
+    <Field name="PublishedOn" type="DateTime">
+      <DisplayName>$Ctd-BlogPost,PublishedOn-DisplayName</DisplayName>
+      <Description>$Ctd-BlogPost,PublishedOn-Description</Description>
+      <Configuration>
+        <DateTimeMode>DateAndTime</DateTimeMode>
+        <Compulsory>true</Compulsory>
+        <DefaultValue>[Script:jScript] DateTime.UtcNow; [/Script]</DefaultValue>
+      </Configuration>
+    </Field>
+    <Field name="Tags" type="LongText">
+      <Configuration>
+        <VisibleBrowse>Show</VisibleBrowse>
+        <VisibleEdit>Show</VisibleEdit>
+        <VisibleNew>Show</VisibleNew>
+      </Configuration>
+    </Field>
+    <Field name="IsTaggable" type="Boolean">
+      <Configuration>
+        <VisibleBrowse>Hide</VisibleBrowse>
+        <VisibleEdit>Hide</VisibleEdit>
+        <VisibleNew>Hide</VisibleNew>
+        <DefaultValue>True</DefaultValue>
+      </Configuration>
+    </Field>
+    <Field name="Description" type="LongText">
+      <Configuration>
+        <VisibleBrowse>Hide</VisibleBrowse>
+        <VisibleEdit>Hide</VisibleEdit>
+        <VisibleNew>Hide</VisibleNew>
+      </Configuration>
+    </Field>
+    <Field name="Name" type="ShortText">
+      <Description>$Ctd-BlogPost,Name-Description</Description>
+      <Configuration>
+        <VisibleBrowse>Hide</VisibleBrowse>
+        <VisibleEdit>Show</VisibleEdit>
+        <VisibleNew>Hide</VisibleNew>
+      </Configuration>
+    </Field>
+    <Field name="Index" type="Integer">
+      <Configuration>
+        <VisibleBrowse>Hide</VisibleBrowse>
+        <VisibleEdit>Hide</VisibleEdit>
+        <VisibleNew>Hide</VisibleNew>
+      </Configuration>
+    </Field>
+    <Field name="ModifiedBy" type="Reference">
+      <Configuration>
+        <VisibleBrowse>Hide</VisibleBrowse>
+        <VisibleEdit>Show</VisibleEdit>
+        <VisibleNew>Hide</VisibleNew>
+        <ReadOnly>true</ReadOnly>
+      </Configuration>
+    </Field>
+    <Field name="ModificationDate" type="DateTime">
+      <DisplayName>$Ctd-BlogPost,ModificationDate-DisplayName</DisplayName>
+      <Description>$Ctd-BlogPost,ModificationDate-Description</Description>
+      <Configuration>
+        <VisibleBrowse>Show</VisibleBrowse>
+        <VisibleEdit>Show</VisibleEdit>
+        <VisibleNew>Hide</VisibleNew>
+        <ReadOnly>true</ReadOnly>
+      </Configuration>
+    </Field>
+    <Field name="Version" type="Version">
+      <Configuration>
+        <VisibleBrowse>Hide</VisibleBrowse>
+        <VisibleEdit>Hide</VisibleEdit>
+        <VisibleNew>Hide</VisibleNew>
+      </Configuration>
+    </Field>
+    <Field name="Locked" type="Boolean">
+      <Configuration>
+        <VisibleBrowse>Hide</VisibleBrowse>
+        <VisibleEdit>Hide</VisibleEdit>
+        <VisibleNew>Hide</VisibleNew>
+      </Configuration>
+    </Field>
+  </Fields>
+</ContentType>

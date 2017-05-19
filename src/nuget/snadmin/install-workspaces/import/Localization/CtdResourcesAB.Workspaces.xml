@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="view.xslt"?>
+<Resources>  
+  <ResourceClass name="Ctd-Blog">
+    <Languages>
+      <Language cultureName="en">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Blog</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>Blogs are usually maintained by an individual with regular entries of commentary, descriptions of events, or other material such as graphics or video.</value>
+        </data>
+        <data name="ShowAvatar-DisplayName" xml:space="preserve">
+          <value>Show avatar</value>
+        </data>
+        <data name="ShowAvatar-Description" xml:space="preserve">
+          <value>According to your settings the blogger's avatar is shown by the title of the post.</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Blog</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>A blog általában egy személy által periodikusan frissített véleménygyűjtemény, gyakran egy téma körül. Bejegyzései általában szövegesek, de tartalmazhat grafikát, videót is.</value>
+        </data>
+        <data name="ShowAvatar-DisplayName" xml:space="preserve">
+          <value>Avatár megjelenítése</value>
+        </data>
+        <data name="ShowAvatar-Description" xml:space="preserve">
+          <value>A blog írójának avatárja megjelenjen-e a cikk címe mellett.</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="Ctd-BlogPost">
+    <Languages>
+      <Language cultureName="en">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Blog post</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>A simple post for an existing blog.</value>
+        </data>
+        <data name="DisplayName-DisplayName" xml:space="preserve">
+          <value>Post title</value>
+        </data>
+        <data name="DisplayName-Description" xml:space="preserve">
+          <value>Display name of the blog post. You can set any name you prefer without any restrictions.</value>
+        </data>
+        <data name="LeadingText-DisplayName" xml:space="preserve">
+          <value>Blog post leading text</value>
+        </data>
+        <data name="BodyText-DisplayName" xml:space="preserve">
+          <value>Blog post body text</value>
+        </data>
+        <data name="Published-DisplayName" xml:space="preserve">
+          <value>Published</value>
+        </data>
+        <data name="Published-Description" xml:space="preserve">
+          <value>Specifies whether this blog post is published and can be seen in the blog.</value>
+        </data>
+        <data name="PublishedOn-DisplayName" xml:space="preserve">
+          <value>Publish date</value>
+        </data>
+        <data name="PublishedOn-Description" xml:space="preserve">
+          <value>The blog post will appear after this date.</value>
+        </data>
+        <data name="Name-Description" xml:space="preserve">
+          <value>Specify a name for the post that will appear in the URL.</value>
+        </data>
+        <data name="ModificationDate-DisplayName" xml:space="preserve">
+          <value>Modification Date</value>
+        </data>
+        <data name="ModificationDate-Description" xml:space="preserve">
+          <value>The post was last modified on this date.</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Blog bejegyzés</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value></value>
+        </data>
+        <data name="DisplayName-DisplayName" xml:space="preserve">
+          <value>Cím</value>
+        </data>
+        <data name="DisplayName-Description" xml:space="preserve">
+          <value>A blog bejegyzés címeként fog megjelenni.</value>
+        </data>
+        <data name="LeadingText-DisplayName" xml:space="preserve">
+          <value>Bevezető szöveg</value>
+        </data>
+        <data name="BodyText-DisplayName" xml:space="preserve">
+          <value>A blog bejegyzés szövege.</value>
+        </data>
+        <data name="Published-DisplayName" xml:space="preserve">
+          <value>Publikus</value>
+        </data>
+        <data name="Published-Description" xml:space="preserve">
+          <value>A bejegyzés publikus-e, látszik-e már a blogban.</value>
+        </data>
+        <data name="PublishedOn-DisplayName" xml:space="preserve">
+          <value>Publikálás dátuma</value>
+        </data>
+        <data name="PublishedOn-Description" xml:space="preserve">
+          <value>A blogbejegyzés ettől a dátumtól kezdve publikus.</value>
+        </data>
+        <data name="Name-Description" xml:space="preserve">
+          <value>A blogbejegyzés URL-ben megjelenő neve.</value>
+        </data>
+        <data name="ModificationDate-DisplayName" xml:space="preserve">
+          <value>Módosítás dátuma.</value>
+        </data>
+        <data name="ModificationDate-Description" xml:space="preserve">
+          <value>Amikor a blogbejegyzés utoljára módosult.</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+</Resources>

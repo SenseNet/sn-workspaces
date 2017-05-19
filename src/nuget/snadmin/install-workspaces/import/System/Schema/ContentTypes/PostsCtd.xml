@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentType name="Posts" parentType="Folder" handler="SenseNet.ContentRepository.Folder" xmlns="http://schemas.sensenet.com/SenseNet/ContentRepository/ContentTypeDefinition">
+  <DisplayName>$Ctd-Posts,DisplayName</DisplayName>
+  <Description>$Ctd-Posts,Description</Description>
+  <Icon>Folder</Icon>
+  <AllowedChildTypes>
+    Post
+  </AllowedChildTypes>
+  <Fields></Fields>
+</ContentType>

@@ -6,6 +6,9 @@
   <Dependencies>
     <Dependency id='SenseNet.Services' minVersion='7.0.0' />
   </Dependencies>
+  <Parameters>
+    <Parameter name="@importdemo" description="Import demo content.">false</Parameter>   
+  </Parameters>
   <Steps>
     <Phase>
       <StartRepository startWorkflowEngine="false" />      
@@ -25,7 +28,32 @@
 		</Else>
 	  </IfComponentExists>
 	  
-	  <EditAllowedChildTypes contentType="PortalRoot" add="DocumentWorkspaceFolder,DocumentWorkspace,ProjectWorkspaceFolder,ProjectWorkspace,SalesWorkspaceFolder,SalesWorkspace" />	  
+	  <EditAllowedChildTypes contentType="PortalRoot" add="DocumentWorkspaceFolder,DocumentWorkspace,ProjectWorkspaceFolder,ProjectWorkspace,SalesWorkspaceFolder,SalesWorkspace" />
+
+		<If condition="@importdemo">
+			<Then>
+				<IfContentExists path="/Root/Sites/Default_Site">
+					<Then>
+						<IfComponentExists>
+							<Components>
+								<Component id="SenseNet.WebPages" minVersion="7.0.0" />
+							</Components>
+							<Then>								
+								<EditAllowedChildTypes path="/Root/Sites/Default_Site">DocumentWorkspaceFolder,SalesWorkspaceFolder,ProjectWorkspaceFolder</EditAllowedChildTypes>
+								<Trace>Importing demo workspaces under Default site...</Trace>
+								<Import target="/Root/Sites/Default_Site" LogLevel="Verbose" source="import-demo" />
+							</Then>
+							<Else>
+								<Trace>Cannot import demo workspaces, WebPages component not found</Trace>
+							</Else>
+						  </IfComponentExists>						
+					</Then>
+					<Else>
+						<Trace>Cannot import demo workspaces, Default site is missing.</Trace>
+					</Else>
+				</IfContentExists>				
+			</Then>
+		</If>
     </Phase>
   </Steps>
 </Package>

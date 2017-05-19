@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentMetaData>
+  <ContentType>DocumentWorkspace</ContentType>
+  <ContentName>londondocumentworkspace</ContentName>
+  <Fields>
+    <DisplayName><![CDATA[London Document Workspace]]></DisplayName>
+    <Description><![CDATA[<p>In this workspace, we've turned basic approval on. This way, you can ensure that no document or any other content type goes live, until the appropriate person took a look.</p>]]></Description>
+    <Deadline>2017-12-30T00:00:00</Deadline>
+    <IsActive>true</IsActive>
+    <IsCritical>false</IsCritical>
+    <IsWallContainer>false</IsWallContainer>
+    <Hidden>false</Hidden>
+    <Index>20</Index>
+  </Fields>
+  <Permissions>
+    <Clear />
+    <Identity path="/Root/Sites/Default_Site/workspaces/Document/londondocumentworkspace/Groups/Owners">
+      <See>Allow</See>
+      <Preview>Allow</Preview>
+      <PreviewWithoutWatermark>Allow</PreviewWithoutWatermark>
+      <PreviewWithoutRedaction>Allow</PreviewWithoutRedaction>
+      <Open>Allow</Open>
+      <OpenMinor>Allow</OpenMinor>
+      <Save>Allow</Save>
+      <Publish>Allow</Publish>
+      <ForceCheckin>Allow</ForceCheckin>
+      <AddNew>Allow</AddNew>
+      <Approve>Allow</Approve>
+      <Delete>Allow</Delete>
+      <RecallOldVersion>Allow</RecallOldVersion>
+      <DeleteOldVersion>Allow</DeleteOldVersion>
+      <SeePermissions>Allow</SeePermissions>
+      <SetPermissions>Allow</SetPermissions>
+      <RunApplication>Allow</RunApplication>
+      <ManageListsAndWorkspaces>Allow</ManageListsAndWorkspaces>
+    </Identity>
+    <Identity path="/Root/Sites/Default_Site/workspaces/Document/londondocumentworkspace/Groups/Members">
+      <See>Allow</See>
+      <Preview>Allow</Preview>
+      <PreviewWithoutWatermark>Allow</PreviewWithoutWatermark>
+      <PreviewWithoutRedaction>Allow</PreviewWithoutRedaction>
+      <Open>Allow</Open>
+      <OpenMinor>Allow</OpenMinor>
+      <Save>Allow</Save>
+      <Publish>Allow</Publish>
+      <AddNew>Allow</AddNew>
+      <Delete>Allow</Delete>
+      <RecallOldVersion>Allow</RecallOldVersion>
+      <RunApplication>Allow</RunApplication>
+    </Identity>
+    <Identity path="/Root/Sites/Default_Site/workspaces/Document/londondocumentworkspace/Groups/Visitors">
+      <See>Allow</See>
+      <Preview>Allow</Preview>
+      <PreviewWithoutWatermark>Allow</PreviewWithoutWatermark>
+      <PreviewWithoutRedaction>Allow</PreviewWithoutRedaction>
+      <Open>Allow</Open>
+      <RunApplication>Allow</RunApplication>
+    </Identity>
+  </Permissions>
+</ContentMetaData>

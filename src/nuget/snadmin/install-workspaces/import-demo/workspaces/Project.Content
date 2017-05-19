@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentMetaData>
+  <ContentType>ProjectWorkspaceFolder</ContentType>
+  <ContentName>Project</ContentName>
+  <Fields>
+    <DisplayName>Project Workspaces</DisplayName>
+    <Index>2</Index>
+  </Fields>
+  <Permissions>
+    <Clear />
+    <Identity path="/Root/IMS/BuiltIn/Portal/Owners">
+      <See>Allow</See>
+      <Open>Allow</Open>
+      <OpenMinor>Allow</OpenMinor>
+      <Save>Allow</Save>
+      <Publish>Allow</Publish>
+      <ForceCheckin>Allow</ForceCheckin>
+      <AddNew>Allow</AddNew>
+      <Approve>Allow</Approve>
+      <Delete>Allow</Delete>
+      <RecallOldVersion>Allow</RecallOldVersion>
+      <DeleteOldVersion>Allow</DeleteOldVersion>
+      <SeePermissions>Allow</SeePermissions>
+      <SetPermissions>Allow</SetPermissions>
+      <RunApplication>Allow</RunApplication>
+      <ManageListsAndWorkspaces>Allow</ManageListsAndWorkspaces>
+    </Identity>
+  </Permissions>
+</ContentMetaData>
