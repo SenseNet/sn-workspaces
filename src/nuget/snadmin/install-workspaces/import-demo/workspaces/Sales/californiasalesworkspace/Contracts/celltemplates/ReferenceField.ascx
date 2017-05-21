@@ -1,1 +1,1 @@
-﻿<sn:ActionList runat='server' ActionName='Preview' ContentPathList='<%# ListHelper.GetPathList(Container.DataItem as SNCR.Content, "@@fieldName@@") %>' UseContentIcon="True" />    
+﻿<sn:ActionList runat='server' ActionName='<%# ListHelper.GetMainActionName(Container.DataItem as SNCR.Content) %>' ContentPathList='<%# ListHelper.GetPathList(Container.DataItem as SNCR.Content, "@@fieldName@@") %>' UseContentIcon="True" />    

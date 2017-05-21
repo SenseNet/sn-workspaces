@@ -14,7 +14,7 @@
     <GroupAttachments></GroupAttachments>
     <SaveOriginalEmail>false</SaveOriginalEmail>
     <OnlyFromLocalGroups>false</OnlyFromLocalGroups>
-    <AllowedChildTypes>Task ApprovalWorkflowTask ExpenseClaimWorkflowTask File</AllowedChildTypes>
+    <AllowedChildTypes>Task File</AllowedChildTypes>
     <Owner>
       <Path>/Root/IMS/BuiltIn/Portal/Admin</Path>
     </Owner>

@@ -14,7 +14,7 @@
     <IsActive>true</IsActive>
     <IsCritical>false</IsCritical>
     <IsWallContainer>false</IsWallContainer>
-    <AllowedChildTypes>Blog CustomList DocumentLibrary EventList Folder Form ImageLibrary LinkList MemoList OrderForm Page Posts TaskList</AllowedChildTypes>
+    <AllowedChildTypes>Blog CustomList DocumentLibrary EventList Folder ImageLibrary LinkList MemoList OrderForm Page Posts TaskList</AllowedChildTypes>
   </Fields>
   <Permissions>
     <Clear />
