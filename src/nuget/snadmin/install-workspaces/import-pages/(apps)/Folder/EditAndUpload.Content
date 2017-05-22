@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentMetaData>
+  <ContentType>Page</ContentType>
+  <ContentName>EditAndUpload</ContentName>
+  <Fields>
+    <PageTemplateNode>
+      <Path>/Root/Global/pagetemplates/sn-layout-dialog.html</Path>
+    </PageTemplateNode>
+    <PersonalizationSettings attachment="EditAndUpload.PersonalizationSettings" />
+    <DisplayName><![CDATA[EditAndUpload]]></DisplayName>
+    <ActionTypeName><![CDATA[EditAndUploadAction]]></ActionTypeName>
+    <Icon><![CDATA[editandupload]]></Icon>
+  </Fields>
+  <Permissions>
+    <Clear />
+  </Permissions>
+</ContentMetaData>
