@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentMetaData>
+  <ContentType>CustomList</ContentType>
+  <ContentName>infos</ContentName>
+  <Fields>
+    <DisplayName>Infos</DisplayName>
+    <AllowedChildTypes>WebContentDemo Folder ContentLink</AllowedChildTypes>
+  </Fields>
+  <Permissions>
+    <Clear />
+  </Permissions>
+</ContentMetaData>
