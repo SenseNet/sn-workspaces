@@ -41,7 +41,7 @@
 							<Then>								
 								<EditAllowedChildTypes path="/Root/Sites/Default_Site">DocumentWorkspaceFolder,SalesWorkspaceFolder,ProjectWorkspaceFolder</EditAllowedChildTypes>
 								<Trace>Importing demo workspaces under Default site...</Trace>
-								<Import target="/Root/Sites/Default_Site" LogLevel="Verbose" source="import-demo" />
+								<Import target="/Root" LogLevel="Verbose" source="import-demo" />
 							</Then>
 							<Else>
 								<Trace>Cannot import demo workspaces, WebPages component not found</Trace>
