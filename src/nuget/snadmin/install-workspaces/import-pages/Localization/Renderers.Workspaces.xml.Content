@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentMetaData>
+  <ContentType>Resource</ContentType>
+  <ContentName>Renderers.Workspaces.xml</ContentName>
+  <Fields>
+    <Binary attachment="Renderers.Workspaces.xml" />
+    <DisplayName><![CDATA[Renderers.Workspaces.xml]]></DisplayName>
+  </Fields>
+  <Permissions>
+    <Clear />
+  </Permissions>
+</ContentMetaData>
