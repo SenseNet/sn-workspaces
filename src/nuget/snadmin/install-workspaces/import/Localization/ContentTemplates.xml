@@ -18,6 +18,18 @@
         <data name="Calendar" xml:space="preserve">
           <value>Calendar</value>
         </data>
+        <data name="Groups" xml:space="preserve">
+          <value>Groups</value>
+        </data>
+        <data name="Members" xml:space="preserve">
+          <value>Members</value>
+        </data>
+        <data name="Owners" xml:space="preserve">
+          <value>Owners</value>
+        </data>
+        <data name="Visitors" xml:space="preserve">
+          <value>Visitors</value>
+        </data>
         <data name="Links" xml:space="preserve">
           <value>Links</value>
         </data>
@@ -58,6 +70,18 @@
         </data>
         <data name="Calendar" xml:space="preserve">
           <value>Naptár</value>
+        </data>
+        <data name="Groups" xml:space="preserve">
+          <value>Csoportok</value>
+        </data>
+        <data name="Members" xml:space="preserve">
+          <value>Tagok</value>
+        </data>
+        <data name="Owners" xml:space="preserve">
+          <value>Tulajdonosok</value>
+        </data>
+        <data name="Visitors" xml:space="preserve">
+          <value>Látogatók</value>
         </data>
         <data name="Links" xml:space="preserve">
           <value>Hivatkozások</value>
