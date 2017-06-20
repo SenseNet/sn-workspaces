@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentMetaData>
+  <ContentType>HTMLContent</ContentType>
+  <ContentName>EditInOfficeInfo</ContentName>
+  <Fields>
+    <HTMLFragment>
+       <![CDATA[<div class="sn-infobox"><h1 class="sn-content-title sn-article-title">
+
+  <img src="/Root/Global/images/icons/32/info.png" class="sn-icon sn-icon_32" alt="">Edit in Microsoft Office</h1>
+  <div style="margin: 20px;">
+   
+  <img src="/Root/Sites/Default_Site/infos/images/office_enabled.png" style="float:left;margin-right: 20px;" />
+     <strong>Open and edit documents with Microsoft Office from a browser or from Windows Explorer.</strong>
+    <p>Enterprise users work in Microsoft Office and they love using it. Why make them leave what they love? Open and edit document directly in Office. Don't worry: Office will prompt you to check to document out before you can start editing. This will ensure that no one else changes to contents until you're finished.</p>
+  <ul style="margin-left: 270px;">
+      <li style="line-height: 20px;">If Microsoft Office 2010 or later is installed on your computer, you can open documents with the 'Edit in Microsoft Office' action found in the dropdown menu. It works in Internet Explorer, Firefox and Chrome.</li>
+      <li>If Microsoft Office 2007 is installed, you can only use this action in Internet Explorer.</li>
+      <li>You’ll have to enter your credentials in a pop-up window again. You can avoid this pop-up in the future if you check “remember my credentials”.</li>
+      <li>The login name/password pairs for the demo users are the following: Alba Monday (manager): <i>alba/alba</i>, Mike Scroll (developer): <i>mike/mike</i>, Admin (administrator): <i>admin/admin</i></li>
+      <li>Sense/Net requires <i>Windows authentication</i> <b>or</b> <i>SSL HTTP connection</i> in order to manage Office documents.</li>
+  </ul>
+    <p>Choose 'Preview' from the dropdown menu to peek inside the documents without having to download them.</p>
+    <p>If you have a photo to upload that you want to edit beforehand, click 'Edit and upload' to use Sense/Net's powerful photo editing features.</p>
+    <div class="clear"></div>
+  </div>
+  </div>]]></HTMLFragment>
+  </Fields>
+  <Permissions>
+    <Clear />
+  </Permissions>
+</ContentMetaData>

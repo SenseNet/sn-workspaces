@@ -52,9 +52,8 @@
           DateTime? lastDate = null;
           DateTime? deadLine = null;
           int elapsed = 0;
-          var portlet = this.Parent as WorkspaceSummaryPortlet;
-          int mediumLimit = portlet == null ? 5 : portlet.DaysMediumWarning;
-          int strongLimit = portlet == null ? 20 : portlet.DaysHighWarning;
+          int mediumLimit = 5;
+          int strongLimit = 20;
 
           if (DateTime.TryParse(content["ModificationDate"].ToString(), out resDate))
               lastDate = resDate;

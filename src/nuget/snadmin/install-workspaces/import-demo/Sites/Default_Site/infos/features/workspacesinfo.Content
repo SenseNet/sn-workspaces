@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentMetaData>
+  <ContentType>Article</ContentType>
+  <ContentName>workspacesinfo</ContentName>
+  <Fields>
+    <Body>
+      <![CDATA[<div class="sn-infobox">
+      <p>Visitors may browse workspaces and underlying content:</p>
+      <ul>
+      <li>Click on the title of a workspace in the list below or select a workspace category from the left menu bar to view workspaces in a given category.</li>
+      <li>Browse workspace content using the provided menu items and links on the individual workspace pages.</li>
+      <li>Try logging in as a different user! You'll see that what appears here is also based on the permissions you have (just like everything else in sensenet ECM). The list below for example contains the Workspaces your user is associated with.</li>
+      </ul>
+      <p>Administrators may edit, delete, and add new content using the actions provided on the content lists for events, documents, memos and tasks.</p>
+      <ul>
+      <li><strong>You need to be logged in as Administrator to modify content.</strong></li>
+      </ul>
+      <p>For trial purposes, we suggest taking a look at the <a href="/Root/Sites/Default_Site/workspaces/Project/budapestprojectworkspace">Budapest Project Workspace.</a></p>
+      <p><a href="http://wiki.sensenet.com/index.php?title=Workspace" target="_blank">Learn more about Workspaces on the sensenet Wiki!</a></p>
+      </div>]]>
+    </Body>
+    <VersioningMode>1</VersioningMode>
+    <InheritableVersioningMode>1</InheritableVersioningMode>
+    <ApprovingMode>1</ApprovingMode>
+    <InheritableApprovingMode>1</InheritableApprovingMode>
+  </Fields>
+  <Permissions>
+    <Clear />
+  </Permissions>
+</ContentMetaData>

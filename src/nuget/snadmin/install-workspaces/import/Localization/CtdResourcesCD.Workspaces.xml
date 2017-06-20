@@ -243,6 +243,74 @@
       </Language>
     </Languages>
   </ResourceClass>  
+  <ResourceClass name="Ctd-Contract">
+    <Languages>
+      <Language cultureName="en">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Contract</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>An example content type to demonstrate the ECMS features of Sense/Net.</value>
+        </data>
+        <data name="ContractId" xml:space="preserve">
+          <value>Contract ID</value>
+        </data>
+        <data name="Project" xml:space="preserve">
+          <value>Project</value>
+        </data>
+        <data name="Language" xml:space="preserve">
+          <value>Language</value>
+        </data>
+        <data name="Responsee" xml:space="preserve">
+          <value>Account</value>
+        </data>
+        <data name="Lawyer" xml:space="preserve">
+          <value>Lawyer</value>
+        </data>
+        <data name="Keywords" xml:space="preserve">
+          <value>Keywords</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>Description</value>
+        </data>
+        <data name="RelatedDocs" xml:space="preserve">
+          <value>Related documents</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Szerződés</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>Példa tartalom típus a Sense/Net ECMS funkcióinak bemutatására.</value>
+        </data>
+        <data name="ContractId" xml:space="preserve">
+          <value>Szerződés azonosító</value>
+        </data>
+        <data name="Project" xml:space="preserve">
+          <value>Projekt</value>
+        </data>
+        <data name="Language" xml:space="preserve">
+          <value>Nyelv</value>
+        </data>
+        <data name="Responsee" xml:space="preserve">
+          <value>Felelős</value>
+        </data>
+        <data name="Lawyer" xml:space="preserve">
+          <value>Jogász</value>
+        </data>
+        <data name="Keywords" xml:space="preserve">
+          <value>Kulcsszavak</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>Leírás</value>
+        </data>
+        <data name="RelatedDocs" xml:space="preserve">
+          <value>Kapcsolódó dokumentumok</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
   <ResourceClass name="Ctd-DocumentWorkspace">
     <Languages>
       <Language cultureName="en">

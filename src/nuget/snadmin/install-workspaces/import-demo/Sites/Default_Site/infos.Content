@@ -4,7 +4,7 @@
   <ContentName>infos</ContentName>
   <Fields>
     <DisplayName>Infos</DisplayName>
-    <AllowedChildTypes>WebContentDemo Folder ContentLink</AllowedChildTypes>
+    <AllowedChildTypes>Article Folder ContentLink HTMLContent Image</AllowedChildTypes>
   </Fields>
   <Permissions>
     <Clear />
