@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentMetaData>
+  <ContentType>Task</ContentType>
+  <ContentName>Vivamus a arcu sem</ContentName>
+  <Fields>
+    <StartDate>0001-01-01T00:00:00</StartDate>
+    <DueDate>2015-09-15T22:00:00</DueDate>
+    <AssignedTo />
+    <Priority>2</Priority>
+    <Status>active</Status>
+    <TaskCompletion>0</TaskCompletion>
+    <Description><![CDATA[<p><span style="font-family: Arial, Helvetica, sans; font-size: 11px; line-height: 14px; text-align: justify;">Vivamus a arcu sem. Phasellus ut ex mi. Morbi sollicitudin euismod augue, vitae convallis purus congue in. Aliquam at elit elementum nibh tristique consectetur. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac</span></p>]]></Description>
+    <ModifiedBy>
+      <Path>/Root/IMS/BuiltIn/Portal/Admin</Path>
+    </ModifiedBy>
+    <ModificationDate>2015-07-23T13:38:05.28</ModificationDate>
+    <Owner>
+      <Path>/Root/IMS/BuiltIn/Portal/Admin</Path>
+    </Owner>
+    <DisplayName><![CDATA[Vivamus a arcu sem]]></DisplayName>
+    <Hidden>false</Hidden>
+    <Index>0</Index>
+    <EnableLifespan>false</EnableLifespan>
+    <ValidFrom>0001-01-01T00:00:00</ValidFrom>
+    <ValidTill>0001-01-01T00:00:00</ValidTill>
+    <CreatedBy>
+      <Path>/Root/IMS/BuiltIn/Portal/Admin</Path>
+    </CreatedBy>
+    <CreationDate>2015-07-23T13:38:05.26</CreationDate>
+    <TrashDisabled>false</TrashDisabled>
+    <IsTaggable>false</IsTaggable>
+    <IsRateable>false</IsRateable>
+    <RateAvg>0.0000</RateAvg>
+    <RateCount>0</RateCount>
+  </Fields>
+  <Permissions>
+    <Clear />
+  </Permissions>
+</ContentMetaData>

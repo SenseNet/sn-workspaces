@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentType name="Contract" parentType="File" handler="SenseNet.ContentRepository.File" xmlns="http://schemas.sensenet.com/SenseNet/ContentRepository/ContentTypeDefinition">
+  <DisplayName>$Ctd-Contract,DisplayName</DisplayName>
+  <Description>$Ctd-Contract,Description</Description>
+  <Icon>Document</Icon>
+  <Preview>true</Preview>
+  <Fields>
+    <Field name="Binary" type="Binary">
+      <Configuration>
+        <VisibleEdit>Show</VisibleEdit>
+        <VisibleNew>Show</VisibleNew>
+      </Configuration>
+    </Field>
+    <Field name="ContractId" type="ShortText">
+      <DisplayName>$Ctd-Contract,ContractId</DisplayName>
+    </Field>
+    <Field name="Project" type="Reference">
+      <DisplayName>$Ctd-Contract,Project</DisplayName>
+      <Configuration>
+        <SelectionRoot>
+          <Path>/Root/Sites/Default_Site/workspaces/Sales</Path>
+        </SelectionRoot>
+      </Configuration>
+    </Field>
+    <Field name="Language" type="Choice">
+      <DisplayName>$Ctd-Contract,Language</DisplayName>
+      <Configuration>
+        <AllowMultiple>false</AllowMultiple>
+        <AllowExtraValue>true</AllowExtraValue>
+        <Options>
+          <Option value="hu" selected="true">Magyar</Option>
+          <Option value="en">English</Option>
+          <Option value="de">Deutsch</Option>
+        </Options>
+      </Configuration>
+    </Field>
+    <Field name="Responsee" type="Reference">
+      <DisplayName>$Ctd-Contract,Responsee</DisplayName>
+      <Configuration>
+        <AllowMultiple>false</AllowMultiple>
+        <AllowedTypes>
+          <Type>User</Type>
+        </AllowedTypes>
+        <SelectionRoot>
+          <Path>/Root/IMS</Path>
+        </SelectionRoot>
+      </Configuration>
+    </Field>
+    <Field name="Lawyer" type="ShortText">
+      <DisplayName>$Ctd-Contract,Lawyer</DisplayName>
+    </Field>
+    <Field name="Keywords" type="LongText">
+      <DisplayName>$Ctd-Contract,Keywords</DisplayName>
+      <Indexing>
+        <Analyzer>Lucene.Net.Analysis.WhitespaceAnalyzer</Analyzer>
+      </Indexing>
+    </Field>
+    <Field name="Description" type="LongText">
+      <DisplayName>$Ctd-Contract,Description</DisplayName>
+    </Field>
+    <Field name="RelatedDocs" type="Reference">
+      <DisplayName>$Ctd-Contract,RelatedDocs</DisplayName>
+      <Configuration>
+        <AllowMultiple>true</AllowMultiple>
+        <SelectionRoot>
+          <Path>/Root/Sites/Default_Site/workspaces/Sales</Path>
+        </SelectionRoot>
+      </Configuration>
+    </Field>
+  </Fields>
+</ContentType>

@@ -1,0 +1,26 @@
+<ContentType name="OrderForm" parentType="File" handler="SenseNet.ContentRepository.File" xmlns="http://schemas.sensenet.com/SenseNet/ContentRepository/ContentTypeDefinition">
+  <DisplayName>$Ctd-OrderForm,DisplayName</DisplayName>
+  <Description>$Ctd-OrderForm,Description</Description>
+  <Icon>Document</Icon>
+  <Preview>true</Preview>
+  <Fields>
+    <Field name="CompanyName" type="ShortText">
+      <DisplayName>$Ctd-OrderForm,CompanyName</DisplayName>
+    </Field>
+    <Field name="OrderFormId" type="ShortText">
+      <DisplayName>$Ctd-OrderForm,OrderFormId</DisplayName>
+    </Field>
+    <Field name="CompanySeat" type="LongText">
+      <DisplayName>$Ctd-OrderForm,CompanySeat</DisplayName>
+    </Field>
+    <Field name="RepresentedBy" type="ShortText">
+      <DisplayName>$Ctd-OrderForm,RepresentedBy</DisplayName>
+    </Field>
+    <Field name="ContactEmailAddress" type="ShortText">
+      <DisplayName>$Ctd-OrderForm,ContactEmailAddress</DisplayName>
+    </Field>
+    <Field name="ContactPhoneNr" type="ShortText">
+      <DisplayName>$Ctd-OrderForm,ContactPhoneNr</DisplayName>
+    </Field>
+  </Fields>
+</ContentType>

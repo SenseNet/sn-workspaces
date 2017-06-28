@@ -3,7 +3,7 @@
   <DisplayName>$Ctd-ProjectWorkspace,DisplayName</DisplayName>
   <Description>$Ctd-ProjectWorkspace,Description</Description>
   <Icon>workspace-project</Icon>
-  <AllowedChildTypes>Folder,DocumentLibrary,ImageLibrary,EventList,MemoList,LinkList,TaskList,CustomList</AllowedChildTypes>
+  <AllowedChildTypes>Folder,DocumentLibrary,ImageLibrary,EventList,MemoList,LinkList,TaskList,CustomList,Posts</AllowedChildTypes>
   <Fields>
     <Field name="Completion" type="Number">
       <DisplayName>$Ctd-ProjectWorkspace,Completion-DisplayName</DisplayName>

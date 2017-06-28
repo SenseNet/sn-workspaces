@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentMetaData>
+  <ContentType>Page</ContentType>
+  <ContentName>Browse</ContentName>
+  <Fields>
+    <PageTemplateNode>
+      <Path>/Root/Global/pagetemplates/sn-layout-intra.html</Path>
+    </PageTemplateNode>
+    <PersonalizationSettings attachment="Browse.PersonalizationSettings" />
+    <DisplayName><![CDATA[$Action,Browse]]></DisplayName>
+    <Icon><![CDATA[browse]]></Icon>
+    <RequiredPermissions>Open</RequiredPermissions>
+    <VersioningMode>1</VersioningMode>
+    <InheritableVersioningMode>1</InheritableVersioningMode>
+    <ApprovingMode>1</ApprovingMode>
+    <InheritableApprovingMode>1</InheritableApprovingMode>
+  </Fields>
+  <Permissions>
+    <Clear />
+    <Break />
+    <Identity path="/Root/IMS/BuiltIn/Portal/Everyone">
+      <RunApplication>Allow</RunApplication>
+    </Identity>
+    <Identity path="/Root/IMS/BuiltIn/Portal/Visitor">
+      <RunApplication>Allow</RunApplication>
+    </Identity>
+    <Identity path="/Root/IMS/BuiltIn/Portal/Owners">
+      <See>Allow</See>
+      <Preview>Allow</Preview>
+      <PreviewWithoutWatermark>Allow</PreviewWithoutWatermark>
+      <PreviewWithoutRedaction>Allow</PreviewWithoutRedaction>
+      <Open>Allow</Open>
+      <OpenMinor>Allow</OpenMinor>
+      <Save>Allow</Save>
+      <Publish>Allow</Publish>
+      <ForceCheckin>Allow</ForceCheckin>
+      <AddNew>Allow</AddNew>
+      <Approve>Allow</Approve>
+      <Delete>Allow</Delete>
+      <RecallOldVersion>Allow</RecallOldVersion>
+      <DeleteOldVersion>Allow</DeleteOldVersion>
+      <SeePermissions>Allow</SeePermissions>
+      <SetPermissions>Allow</SetPermissions>
+      <RunApplication>Allow</RunApplication>
+      <ManageListsAndWorkspaces>Allow</ManageListsAndWorkspaces>
+    </Identity>
+    <Identity path="/Root/IMS/BuiltIn/Portal/Administrators">
+      <See>Allow</See>
+      <Preview>Allow</Preview>
+      <PreviewWithoutWatermark>Allow</PreviewWithoutWatermark>
+      <PreviewWithoutRedaction>Allow</PreviewWithoutRedaction>
+      <Open>Allow</Open>
+      <OpenMinor>Allow</OpenMinor>
+      <Save>Allow</Save>
+      <Publish>Allow</Publish>
+      <ForceCheckin>Allow</ForceCheckin>
+      <AddNew>Allow</AddNew>
+      <Approve>Allow</Approve>
+      <Delete>Allow</Delete>
+      <RecallOldVersion>Allow</RecallOldVersion>
+      <DeleteOldVersion>Allow</DeleteOldVersion>
+      <SeePermissions>Allow</SeePermissions>
+      <SetPermissions>Allow</SetPermissions>
+      <RunApplication>Allow</RunApplication>
+      <ManageListsAndWorkspaces>Allow</ManageListsAndWorkspaces>
+      <TakeOwnership>Allow</TakeOwnership>
+    </Identity>
+  </Permissions>
+</ContentMetaData>

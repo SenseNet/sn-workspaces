@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentMetaData>
+  <ContentType>Article</ContentType>
+  <ContentName>kpiworkspacesinfo</ContentName>
+  <Fields>
+    <Body>
+  <![CDATA[<div class="sn-infobox">
+<p style="margin-top: 0in; margin-right: 0in; margin-bottom: 12.0pt; margin-left: 0in;">&nbsp;</p>
+<h1 class="sn-content-title sn-article-title"><img class="sn-icon sn-icon_32" src="/Root/Global/images/icons/32/info.png" alt="" />Workspaces demo</h1>
+<p style="margin-top: 0in; margin-right: 0in; margin-bottom: 12.0pt; margin-left: 0in;"><span style="color: #333333; font-family: Arial, sans-serif;"><span style="font-size: 12px;">This demo introduces sensenet Workspaces. Workspaces are virtual collaboration areas where coworkors can interact and share information with each other. Based what you will use the Workspace for, you can create different temple to organize information accordingly. A project workspace for example may integrate project related content such as deadlines, memos, documents, project team members and e-mail conversations between stakeholders. The way these are all presented can be customized to any extent, so bear in mind: everything can be tailored to your liking.</span></span></p>
+<p style="margin-top: 0in; margin-right: 0in; margin-bottom: 12.0pt; margin-left: 0in;"><span style="color: #333333; font-family: Arial, sans-serif;"><span style="font-size: 12px;">The current page is a dashboard, that gathers key information from all the different Workspaces in the system. On the left, you can navigate to the different kinds of Workspaces we set up for this demo. Below, you'll see graphical representations of relevant KPIs in our imaginary company.</span></span></p>
+<a href="">Learn more about Workspace data visualization on the sensenet Wiki!</a>
+</div>]]></Body>
+    <VersioningMode>1</VersioningMode>
+    <InheritableVersioningMode>1</InheritableVersioningMode>
+    <ApprovingMode>1</ApprovingMode>
+    <InheritableApprovingMode>1</InheritableApprovingMode>
+  </Fields>
+  <Permissions>
+    <Clear />
+  </Permissions>
+</ContentMetaData>

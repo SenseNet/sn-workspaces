@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentType name="Post" parentType="ListItem" handler="SenseNet.ContentRepository.GenericContent" xmlns="http://schemas.sensenet.com/SenseNet/ContentRepository/ContentTypeDefinition">
+  <DisplayName>$Ctd-Post,DisplayName</DisplayName>
+  <Description>$Ctd-Post,Description</Description>
+  <Icon>File</Icon>
+  <AllowedChildTypes>Post Comment Like Folder</AllowedChildTypes>
+  <Fields>
+    <Field name="JournalId" type="Integer">
+      <DisplayName>$Ctd-Post,JournalId-DisplayName</DisplayName>
+      <Description>$Ctd-Post,JournalId-Description</Description>
+      <Configuration>
+        <VisibleBrowse>Advanced</VisibleBrowse>
+        <VisibleEdit>Advanced</VisibleEdit>
+        <VisibleNew>Advanced</VisibleNew>
+      </Configuration>
+    </Field>
+    <Field name="PostType" type="Integer">
+      <DisplayName>$Ctd-Post,PostType-DisplayName</DisplayName>
+      <Description>$Ctd-Post,PostType-Description</Description>
+      <Configuration>
+        <VisibleBrowse>Advanced</VisibleBrowse>
+        <VisibleEdit>Advanced</VisibleEdit>
+        <VisibleNew>Advanced</VisibleNew>
+      </Configuration>
+    </Field>
+    <Field name="SharedContent" type="Reference">
+      <DisplayName>$Ctd-Post,SharedContent-DisplayName</DisplayName>
+      <Description>$Ctd-Post,SharedContent-Description</Description>
+      <Configuration>
+        <VisibleBrowse>Advanced</VisibleBrowse>
+        <VisibleEdit>Advanced</VisibleEdit>
+        <VisibleNew>Advanced</VisibleNew>
+        <AllowMultiple>false</AllowMultiple>
+      </Configuration>
+    </Field>
+    <Field name="PostDetails" type="LongText">
+      <DisplayName>$Ctd-Post,PostDetails-DisplayName</DisplayName>
+      <Description>$Ctd-Post,PostDetails-Description</Description>
+    </Field>
+  </Fields>
+</ContentType>

@@ -1,0 +1,447 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources>
+  <ResourceClass name="KPIRenderers">
+    <Languages>
+      <Language cultureName="en">
+        <data name="SalesWorkspace" xml:space="preserve">
+          <value>Sales Workspace</value>
+        </data>
+        <data name="ProjectWorkspace" xml:space="preserve">
+          <value>Project Workspace</value>
+        </data>
+        <data name="DocumentWorkspace" xml:space="preserve">
+          <value>Document Workspace</value>
+        </data>
+        <data name="Responsible" xml:space="preserve">
+          <value>Responsible:</value>
+        </data>
+        <data name="Deadline" xml:space="preserve">
+          <value>Deadline:</value>
+        </data>
+        <data name="Modified" xml:space="preserve">
+          <value>Modified:</value>
+        </data>
+        <data name="DaysAgo" xml:space="preserve">
+          <value>day(s) ago</value>
+        </data>
+        <data name="ExpectedRevenue" xml:space="preserve">
+          <value>Expected revenue:</value>
+        </data>
+        <data name="ChanceToWin" xml:space="preserve">
+          <value>Chance to win:</value>
+        </data>
+        <data name="Forecast" xml:space="preserve">
+          <value>Forecast:</value>
+        </data>
+        <data name="Progress" xml:space="preserve">
+          <value>Progress:</value>
+        </data>
+        <data name="NoManager" xml:space="preserve">
+          <value>No manager associated</value>
+        </data>
+        <data name="Goal" xml:space="preserve">
+          <value>Goal</value>
+        </data>
+        <data name="Actual" xml:space="preserve">
+          <value>Actual</value>
+        </data>
+        <data name="Actual" xml:space="preserve">
+          <value>Actual:</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="SalesWorkspace" xml:space="preserve">
+          <value>Sales munkaterület</value>
+        </data>
+        <data name="ProjectWorkspace" xml:space="preserve">
+          <value>Projekt munkaterület</value>
+        </data>
+        <data name="DocumentWorkspace" xml:space="preserve">
+          <value>Dokumentum munkaterület</value>
+        </data>
+        <data name="Responsible" xml:space="preserve">
+          <value>Felelős:</value>
+        </data>
+        <data name="Deadline" xml:space="preserve">
+          <value>Határidő:</value>
+        </data>
+        <data name="Modified" xml:space="preserve">
+          <value>Módosítva:</value>
+        </data>
+        <data name="DaysAgo" xml:space="preserve">
+          <value>napja</value>
+        </data>
+        <data name="ExpectedRevenue" xml:space="preserve">
+          <value>Várható bevétel:</value>
+        </data>
+        <data name="ChanceToWin" xml:space="preserve">
+          <value>Esély:</value>
+        </data>
+        <data name="Forecast" xml:space="preserve">
+          <value>Előrejelzés:</value>
+        </data>
+        <data name="Progress" xml:space="preserve">
+          <value>Állapot:</value>
+        </data>
+        <data name="NoManager" xml:space="preserve">
+          <value>Nincs hozzárendelve manager</value>
+        </data>
+        <data name="Goal" xml:space="preserve">
+          <value>Cél</value>
+        </data>
+        <data name="Actual" xml:space="preserve">
+          <value>Aktuális</value>
+        </data>
+        <data name="Actual" xml:space="preserve">
+          <value>Aktuális:</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="WorkspaceRenderers">
+    <Languages>
+      <Language cultureName="en">
+        <data name="AreYouSure" xml:space="preserve">
+          <value>Are you sure you want to remove</value>
+        </data>
+        <data name="from" xml:space="preserve">
+          <value>from</value>
+        </data>
+        <data name="from2" xml:space="preserve">
+          <value></value>
+        </data>
+        <data name="Remove" xml:space="preserve">
+          <value>Remove</value>
+        </data>
+        <data name="Cancel" xml:space="preserve">
+          <value>Cancel</value>
+        </data>
+        <data name="PickUsers" xml:space="preserve">
+          <value>Pick users into the following groups:</value>
+        </data>
+        <data name="Add" xml:space="preserve">
+          <value>Add</value>
+        </data>
+        <data name="AddNewMembers" xml:space="preserve">
+          <value>Add new members</value>
+        </data>
+        <data name="ShowAll_1" xml:space="preserve">
+          <value>Show all {0} members</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="AreYouSure" xml:space="preserve">
+          <value>Biztos benne, hogy törölni szeretné</value>
+        </data>
+        <data name="from" xml:space="preserve">
+          <value>-t a </value>
+        </data>
+        <data name="from2" xml:space="preserve">
+          <value>csoportból</value>
+        </data>
+        <data name="Remove" xml:space="preserve">
+          <value>Törlés</value>
+        </data>
+        <data name="Cancel" xml:space="preserve">
+          <value>Mégsem</value>
+        </data>
+        <data name="PickUsers" xml:space="preserve">
+          <value>Válasszon ki felhasználókat az alábbi csoportokba:</value>
+        </data>
+        <data name="Add" xml:space="preserve">
+          <value>Hozzáadás</value>
+        </data>
+        <data name="AddNewMembers" xml:space="preserve">
+          <value>Új felhasználók hozzáadása</value>
+        </data>
+        <data name="ShowAll_1" xml:space="preserve">
+          <value>Mutassa mind a {0} felhasználót</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="Renderers">
+    <Languages>
+      <Language cultureName="en">
+        <data name="hello" xml:space="preserve">
+          <value>hello</value>
+        </data>
+        <data name="ascending" xml:space="preserve">
+          <value>ascending</value>
+        </data>
+        <data name="descending" xml:space="preserve">
+          <value>descending</value>
+        </data>
+        <data name="SelectOrdering" xml:space="preserve">
+          <value>Select ordering...</value>
+        </data>
+        <data name="PublishedBy" xml:space="preserve">
+          <value>Published by</value>
+        </data>
+        <data name="AddNewEvent" xml:space="preserve">
+          <value>Add new event for </value>
+        </data>
+        <data name="Add" xml:space="preserve">
+          <value>Add</value>
+        </data>
+        <data name="ManageEvent" xml:space="preserve">
+          <value>Manage event</value>
+        </data>
+        <data name="make" xml:space="preserve">
+          <value>make</value>
+        </data>
+        <data name="model" xml:space="preserve">
+          <value>model</value>
+        </data>
+        <data name="style" xml:space="preserve">
+          <value>style</value>
+        </data>
+        <data name="Department" xml:space="preserve">
+          <value>Department:</value>
+        </data>
+        <data name="Email" xml:space="preserve">
+          <value>Email:</value>
+        </data>
+        <data name="MissingUserImage" xml:space="preserve">
+          <value>Missing UserImage</value>
+        </data>
+        <data name="FieldTitle" xml:space="preserve">
+          <value>Field title</value>
+        </data>
+        <data name="Name" xml:space="preserve">
+          <value>Name</value>
+        </data>
+        <data name="DefinedIn" xml:space="preserve">
+          <value>Defined in:</value>
+        </data>
+        <data name="Type" xml:space="preserve">
+          <value>Type:</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>Description</value>
+        </data>
+        <data name="Created" xml:space="preserve">
+          <value>Created:</value>
+        </data>
+        <data name="Edit" xml:space="preserve">
+          <value>Edit:</value>
+        </data>
+        <data name="Editprofile" xml:space="preserve">
+          <value>Edit profile</value>
+        </data>
+        <data name="Edit" xml:space="preserve">
+          <value>Notifications</value>
+        </data>
+        <data name="Edit" xml:space="preserve">
+          <value>Permissions</value>
+        </data>
+        <data name="SiteHome" xml:space="preserve">
+          <value>Site home</value>
+        </data>
+        <data name="VisitYourProfile" xml:space="preserve">
+          <value>Visit your profile</value>
+        </data>
+        <data name="StartWorkflow" xml:space="preserve">
+          <value>Start workflow</value>
+        </data>
+        <data name="Search" xml:space="preserve">
+          <value>Search</value>
+        </data>
+        <data name="WorkspaceHome" xml:space="preserve">
+          <value>Workspace home</value>
+        </data>
+        <data name="WikiMainPage" xml:space="preserve">
+          <value>Wiki mainpage</value>
+        </data>
+        <data name="RecentChanges" xml:space="preserve">
+          <value>Recent changes</value>
+        </data>
+        <data name="Images" xml:space="preserve">
+          <value>Images</value>
+        </data>
+        <data name="NewArticle" xml:space="preserve">
+          <value>New article</value>
+        </data>
+        <data name="UploadImage" xml:space="preserve">
+          <value>Upload image</value>
+        </data>
+        <data name="Content" xml:space="preserve">
+          <value>Content</value>
+        </data>
+        <data name="Path" xml:space="preserve">
+          <value>Path</value>
+        </data>
+        <data name="Details" xml:space="preserve">
+          <value>Details</value>
+        </data>
+        <data name="PleaseLogin" xml:space="preserve">
+          <value>You have to log in to the portal before you can use this feature.</value>
+        </data>
+        <data name="PageExecution" xml:space="preserve">
+          <value>Page execution details</value>
+        </data>
+        <data name="FullPageDuration" xml:space="preserve">
+          <value>Full page duration</value>
+        </data>
+        <data name="MethodName" xml:space="preserve">
+          <value>Method name</value>
+        </data>
+        <data name="Message" xml:space="preserve">
+          <value>Message</value>
+        </data>
+        <data name="Registration" xml:space="preserve">
+          <value>Registration</value>
+        </data>
+        <data name="RemainingPlaces" xml:space="preserve">
+          <value>Remaining places: </value>
+        </data>
+        <data name="UpcomingEventsTitle" xml:space="preserve">
+          <value>Upcoming events</value>
+        </data>
+        <data name="LocationTitle" xml:space="preserve">
+          <value>Location: </value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="hello" xml:space="preserve">
+          <value>hello</value>
+        </data>
+        <data name="ascending" xml:space="preserve">
+          <value>növekvő</value>
+        </data>
+        <data name="descending" xml:space="preserve">
+          <value>csökkenő</value>
+        </data>
+        <data name="SelectOrdering" xml:space="preserve">
+          <value>Válasszon sorrendet</value>
+        </data>
+        <data name="PublishedBy" xml:space="preserve">
+          <value>Publikálta</value>
+        </data>
+        <data name="AddNewEvent" xml:space="preserve">
+          <value>Új esemény hozzáadása </value>
+        </data>
+        <data name="Add" xml:space="preserve">
+          <value>Hozzáadás</value>
+        </data>
+        <data name="ManageEvent" xml:space="preserve">
+          <value>Esemény adminisztrálása</value>
+        </data>
+        <data name="make" xml:space="preserve">
+          <value>gyártó</value>
+        </data>
+        <data name="model" xml:space="preserve">
+          <value>modell</value>
+        </data>
+        <data name="style" xml:space="preserve">
+          <value>kivitel</value>
+        </data>
+        <data name="Department" xml:space="preserve">
+          <value>Iroda:</value>
+        </data>
+        <data name="Email" xml:space="preserve">
+          <value>E-mail cím:</value>
+        </data>
+        <data name="MissingUserImage" xml:space="preserve">
+          <value>Hiányzó avatar</value>
+        </data>
+        <data name="FieldTitle" xml:space="preserve">
+          <value>Mező név:</value>
+        </data>
+        <data name="Name" xml:space="preserve">
+          <value>Név:</value>
+        </data>
+        <data name="DefinedIn" xml:space="preserve">
+          <value>Definiálva:</value>
+        </data>
+        <data name="Type" xml:space="preserve">
+          <value>Típus:</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>Leírás</value>
+        </data>
+        <data name="Created" xml:space="preserve">
+          <value>Készült:</value>
+        </data>
+        <data name="Edit" xml:space="preserve">
+          <value>Szerkesztés:</value>
+        </data>
+        <data name="Editprofile" xml:space="preserve">
+          <value>Profil szerkesztése</value>
+        </data>
+        <data name="Edit" xml:space="preserve">
+          <value>Feliratkozások</value>
+        </data>
+        <data name="Edit" xml:space="preserve">
+          <value>Jogosultságok</value>
+        </data>
+        <data name="SiteHome" xml:space="preserve">
+          <value>Főoldal</value>
+        </data>
+        <data name="VisitYourProfile" xml:space="preserve">
+          <value>Saját profil</value>
+        </data>
+        <data name="StartWorkflow" xml:space="preserve">
+          <value>Munkafolyamat indítása</value>
+        </data>
+        <data name="Search" xml:space="preserve">
+          <value>Keresés</value>
+        </data>
+        <data name="WorkspaceHome" xml:space="preserve">
+          <value>Munkafolyamat kezdőoldal</value>
+        </data>
+        <data name="WikiMainPage" xml:space="preserve">
+          <value>Wiki kezdőoldal</value>
+        </data>
+        <data name="RecentChanges" xml:space="preserve">
+          <value>Legutolsó változások</value>
+        </data>
+        <data name="Images" xml:space="preserve">
+          <value>Képek</value>
+        </data>
+        <data name="NewArticle" xml:space="preserve">
+          <value>Új cikk</value>
+        </data>
+        <data name="UploadImage" xml:space="preserve">
+          <value>Kép feltöltés</value>
+        </data>
+        <data name="Content" xml:space="preserve">
+          <value>Tartalom</value>
+        </data>
+        <data name="Path" xml:space="preserve">
+          <value>Hely</value>
+        </data>
+        <data name="Details" xml:space="preserve">
+          <value>Részletek</value>
+        </data>
+        <data name="PleaseLogin" xml:space="preserve">
+          <value>Ennek a funkciónak a használatához előbb be kell lépnie.</value>
+        </data>
+        <data name="PageExecution" xml:space="preserve">
+          <value>Oldal végrehajtásának részletei</value>
+        </data>
+        <data name="FullPageDuration" xml:space="preserve">
+          <value>Teljes végrehajtási idő</value>
+        </data>
+        <data name="MethodName" xml:space="preserve">
+          <value>Metódusnév</value>
+        </data>
+        <data name="Message" xml:space="preserve">
+          <value>Üzenet</value>
+        </data>
+        <data name="Registration" xml:space="preserve">
+          <value>Regisztráció</value>
+        </data>
+        <data name="RemainingPlaces" xml:space="preserve">
+          <value>Szabad helyek száma: </value>
+        </data>
+        <data name="UpcomingEventsTitle" xml:space="preserve">
+          <value>Következő események</value>
+        </data>
+        <data name="LocationTitle" xml:space="preserve">
+          <value>Helyszín: </value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+</Resources>

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentMetaData>
+  <ContentType>Task</ContentType>
+  <ContentName>Fusce bibendum</ContentName>
+  <Fields>
+    <StartDate>0001-01-01T00:00:00</StartDate>
+    <DueDate>2015-09-29T22:00:00</DueDate>
+    <AssignedTo />
+    <Priority>2</Priority>
+    <Status>active</Status>
+    <TaskCompletion>0</TaskCompletion>
+    <Description><![CDATA[<p><span style="font-family: Arial, Helvetica, sans; font-size: 11px; line-height: 14px; text-align: justify;">Fusce bibendum, velit non tempor iaculis, nunc nibh mollis risus, sed luctus quam nunc ut justo. Integer nisi leo, sodales ac nulla ac, blandit aliquam quam. Duis porta, felis non dignissim maximus, lorem elit condimentum turpis, non maximus velit nunc ac arcu. Maecenas non diam ac odio dictum rhoncus in vel nibh. Suspendisse mollis ex ut placerat elementum</span></p>]]></Description>
+    <ModifiedBy>
+      <Path>/Root/IMS/BuiltIn/Portal/Admin</Path>
+    </ModifiedBy>
+    <ModificationDate>2015-07-23T13:36:59.96</ModificationDate>
+    <Owner>
+      <Path>/Root/IMS/BuiltIn/Portal/Admin</Path>
+    </Owner>
+    <DisplayName><![CDATA[Fusce bibendum]]></DisplayName>
+    <Hidden>false</Hidden>
+    <Index>0</Index>
+    <EnableLifespan>false</EnableLifespan>
+    <ValidFrom>0001-01-01T00:00:00</ValidFrom>
+    <ValidTill>0001-01-01T00:00:00</ValidTill>
+    <CreatedBy>
+      <Path>/Root/IMS/BuiltIn/Portal/Admin</Path>
+    </CreatedBy>
+    <CreationDate>2015-07-23T13:36:59.95</CreationDate>
+    <TrashDisabled>false</TrashDisabled>
+    <IsTaggable>false</IsTaggable>
+    <IsRateable>false</IsRateable>
+    <RateAvg>0.0000</RateAvg>
+    <RateCount>0</RateCount>
+  </Fields>
+  <Permissions>
+    <Clear />
+  </Permissions>
+</ContentMetaData>

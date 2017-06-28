@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentMetaData>
+  <ContentType>SystemFolder</ContentType>
+  <ContentName>Groups</ContentName>
+  <Fields>
+    <DisplayName><![CDATA[$ContentTemplates,Groups]]></DisplayName>
+    <Hidden>true</Hidden>
+    <AllowedChildTypes>Group</AllowedChildTypes>
+  </Fields>
+  <Permissions>
+    <Clear />
+    <Break />
+    <Identity path="/Root/IMS/BuiltIn/Portal/Administrators">
+      <See>Allowed</See>
+      <Preview>Allowed</Preview>
+      <PreviewWithoutWatermark>Allowed</PreviewWithoutWatermark>
+      <PreviewWithoutRedaction>Allowed</PreviewWithoutRedaction>
+      <Open>Allowed</Open>
+      <OpenMinor>Allowed</OpenMinor>
+      <Save>Allowed</Save>
+      <Publish>Allowed</Publish>
+      <ForceCheckin>Allowed</ForceCheckin>
+      <AddNew>Allowed</AddNew>
+      <Approve>Allowed</Approve>
+      <Delete>Allowed</Delete>
+      <RecallOldVersion>Allowed</RecallOldVersion>
+      <DeleteOldVersion>Allowed</DeleteOldVersion>
+      <SeePermissions>Allowed</SeePermissions>
+      <SetPermissions>Allowed</SetPermissions>
+      <RunApplication>Allowed</RunApplication>
+      <ManageListsAndWorkspaces>Allowed</ManageListsAndWorkspaces>
+      <TakeOwnership>Allowed</TakeOwnership>
+    </Identity>
+    <Identity path="/Root/IMS/BuiltIn/Portal/Everyone">
+      <See>Allowed</See>
+      <Preview>Allowed</Preview>
+      <PreviewWithoutWatermark>Allowed</PreviewWithoutWatermark>
+      <PreviewWithoutRedaction>Allowed</PreviewWithoutRedaction>
+      <Open>Allowed</Open>
+    </Identity>
+    <Identity path="/Root/IMS/BuiltIn/Portal/Owners">
+      <See>Allowed</See>
+      <Preview>Allowed</Preview>
+      <PreviewWithoutWatermark>Allowed</PreviewWithoutWatermark>
+      <PreviewWithoutRedaction>Allowed</PreviewWithoutRedaction>
+      <Open>Allowed</Open>
+      <OpenMinor>Allowed</OpenMinor>
+      <Save>Allowed</Save>
+      <Publish>Allowed</Publish>
+      <ForceCheckin>Allowed</ForceCheckin>
+      <AddNew>Allowed</AddNew>
+      <Approve>Allowed</Approve>
+      <Delete>Allowed</Delete>
+      <RecallOldVersion>Allowed</RecallOldVersion>
+      <DeleteOldVersion>Allowed</DeleteOldVersion>
+      <SeePermissions>Allowed</SeePermissions>
+      <SetPermissions>Allowed</SetPermissions>
+      <RunApplication>Allowed</RunApplication>
+      <ManageListsAndWorkspaces>Allowed</ManageListsAndWorkspaces>
+    </Identity>
+    <Identity path="/Root/Sites/Default_Site/workspaces/Sales/floridasalesworkspace/Groups/Members">
+      <See>Allowed</See>
+      <Preview>Allowed</Preview>
+      <PreviewWithoutWatermark>Allowed</PreviewWithoutWatermark>
+      <PreviewWithoutRedaction>Allowed</PreviewWithoutRedaction>
+      <Open>Allowed</Open>
+      <RunApplication>Allowed</RunApplication>
+    </Identity>
+    <Identity path="/Root/Sites/Default_Site/workspaces/Sales/floridasalesworkspace/Groups/Owners">
+      <See>Allowed</See>
+      <Preview>Allowed</Preview>
+      <PreviewWithoutWatermark>Allowed</PreviewWithoutWatermark>
+      <PreviewWithoutRedaction>Allowed</PreviewWithoutRedaction>
+      <Open>Allowed</Open>
+      <OpenMinor>Allowed</OpenMinor>
+      <Save>Allowed</Save>
+      <Publish>Allowed</Publish>
+      <ForceCheckin>Allowed</ForceCheckin>
+      <AddNew>Allowed</AddNew>
+      <Approve>Allowed</Approve>
+      <Delete>Allowed</Delete>
+      <RecallOldVersion>Allowed</RecallOldVersion>
+      <DeleteOldVersion>Allowed</DeleteOldVersion>
+      <SeePermissions>Allowed</SeePermissions>
+      <SetPermissions>Allowed</SetPermissions>
+      <RunApplication>Allowed</RunApplication>
+      <ManageListsAndWorkspaces>Allowed</ManageListsAndWorkspaces>
+    </Identity>
+    <Identity path="/Root/Sites/Default_Site/workspaces/Sales/floridasalesworkspace/Groups/Visitors">
+      <See>Allowed</See>
+      <Preview>Allowed</Preview>
+      <PreviewWithoutWatermark>Allowed</PreviewWithoutWatermark>
+      <PreviewWithoutRedaction>Allowed</PreviewWithoutRedaction>
+      <Open>Allowed</Open>
+      <RunApplication>Allowed</RunApplication>
+    </Identity>
+  </Permissions>
+</ContentMetaData>

@@ -6,7 +6,6 @@
     <PageTemplateNode>
       <Path>/Root/Global/pagetemplates/sn-layout-intra.html</Path>
     </PageTemplateNode>
-    <Binary attachment="Browse.aspx" />
     <PersonalizationSettings attachment="Browse.PersonalizationSettings" />
     <DisplayName><![CDATA[$Action,Browse]]></DisplayName>
     <Icon><![CDATA[browse]]></Icon>

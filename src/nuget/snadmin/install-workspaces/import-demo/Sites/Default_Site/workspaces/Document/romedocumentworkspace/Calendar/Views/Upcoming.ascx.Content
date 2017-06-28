@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentMetaData>
+  <ContentType>ListView</ContentType>
+  <ContentName>Upcoming.ascx</ContentName>
+  <Fields>
+    <Columns><![CDATA[<Columns>
+  <Column title="Olvasható név" fullName="GenericContent.DisplayName" bindingName="GenericContent_DisplayName" index="1" width="0" hAlign="" wrap="" modifiers="main" />
+  <Column title="Kezdődátum" fullName="CalendarEvent.StartDate" bindingName="CalendarEvent_StartDate" index="2" width="0" hAlign="" wrap="" modifiers="" />
+</Columns>]]></Columns>
+    <SortBy><![CDATA[StartDate ASC]]></SortBy>
+    <GroupBy><![CDATA[]]></GroupBy>
+    <Flat>false</Flat>
+    <Binary attachment="Upcoming.ascx" />
+    <MainScenario><![CDATA[]]></MainScenario>
+    <DisplayName><![CDATA[$List,Upcoming]]></DisplayName>
+    <FilterXml><![CDATA[+StartDate:>=@@CurrentMonth@@]]></FilterXml>
+    <EnableAutofilters>0</EnableAutofilters>
+    <EnableLifespanFilter>0</EnableLifespanFilter>
+    <Hidden>true</Hidden>
+    <QueryTop>0</QueryTop>
+    <QuerySkip>0</QuerySkip>
+    <Icon><![CDATA[views]]></Icon>
+    <ModifiedBy>
+      <Path>/Root/IMS/BuiltIn/Portal/Admin</Path>
+    </ModifiedBy>
+    <ModificationDate>2012-10-29T13:06:42.807</ModificationDate>
+    <Description><![CDATA[]]></Description>
+    <Index>0</Index>
+    <EnableLifespan>false</EnableLifespan>
+    <ValidFrom>0001-01-01T00:00:00</ValidFrom>
+    <ValidTill>0001-01-01T00:00:00</ValidTill>
+    <CreatedBy>
+      <Path>/Root/IMS/BuiltIn/Portal/Admin</Path>
+    </CreatedBy>
+    <CreationDate>2012-10-29T09:20:35.28</CreationDate>
+    <TrashDisabled>false</TrashDisabled>
+    <IsTaggable>false</IsTaggable>
+    <IsRateable>false</IsRateable>
+    <RateAvg>0.0000</RateAvg>
+    <RateCount>0</RateCount>
+  </Fields>
+  <Permissions>
+    <Clear />
+  </Permissions>
+</ContentMetaData>

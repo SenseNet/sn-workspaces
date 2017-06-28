@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentMetaData>
+  <ContentType>HTMLContent</ContentType>
+  <ContentName>VersioningInfoInDocLib</ContentName>
+  <Fields>
+    <HTMLFragment><![CDATA[<div class="sn-infobox"><h1 class="sn-content-title sn-article-title">
+
+  <img src="/Root/Global/images/icons/32/info.png" class="sn-icon sn-icon_32" alt="">Versioning</h1>
+  <div style="margin: 20px;">
+    
+  <img src="/Root/Sites/Default_Site/infos/images/versioning_enabled.png" style="float:left;margin-right: 20px;" width="270" />
+    <p>
+      <b>In this workspace, we’ve switched 'Major and Minor' <a href="http://wiki.sensenet.com/index.php?title=Versioning_and_approval">versioning</a> on by default.</b> 
+    <br />This will help you keeping track of what happens with your documents. Versioning has two setting: ‘Major only’ and ‘Major and minor’. 
+      These settings are hooked up to permission to ensure you have full control over who sees what.</p>
+    <div class="clear"></div>
+  </div></div>]]></HTMLFragment>
+  </Fields>
+  <Permissions>
+    <Clear />
+  </Permissions>
+</ContentMetaData>
