@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentMetaData>
+  <ContentType>GenericODataApplication</ContentType>
+  <ContentName>WorkspaceRemoveMember</ContentName>
+  <Fields>
+    <ClassName><![CDATA[SenseNet.Portal.Workspaces.WorkspaceApi]]></ClassName>
+    <MethodName><![CDATA[RemoveMember]]></MethodName>
+    <Parameters><![CDATA[int groupId, int memberId]]></Parameters>
+    <DisplayName><![CDATA[WorkspaceRemoveMember]]></DisplayName>
+    <Description><![CDATA[]]></Description>
+    <Scenario><![CDATA[]]></Scenario>
+    <ActionTypeName><![CDATA[GenericODataOperation]]></ActionTypeName>
+  </Fields>
+  <Permissions>
+    <Clear />
+  </Permissions>
+</ContentMetaData>

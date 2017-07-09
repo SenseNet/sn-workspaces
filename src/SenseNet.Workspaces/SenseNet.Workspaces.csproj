@@ -167,6 +167,7 @@
   <ItemGroup>
     <Compile Include="ApplicationModel\EditAndUploadAction.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WorkspaceApi.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
