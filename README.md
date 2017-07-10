@@ -19,22 +19,5 @@ If you also have the **sensenet ECM WebPages** component installed (which gives 
 The install package of this component also contains a **demo content structure** that you can import optionally at install time or later.
 
 ## Installation
-To get started, install the NuGet package the usual way in Visual Studio:
-
-[![NuGet](https://img.shields.io/nuget/v/SenseNet.Workspaces.Install.svg)](https://www.nuget.org/packages/SenseNet.Workspaces.Install)
-
-> `Install-Package SenseNet.Workspaces.Install -Pre`
-
-Open a command line and go to the *[web]\Admin\bin* folder.
-
-Execute the install-workspaces command with the SnAdmin tool.
-
-```text
-.\snadmin install-workspaces
-```
-
-Optionally you may import demo content too:
-
-```text
-.\snadmin install-workspaces importdemo:true
-```
+To get started, install the Workspaces component from NuGet:
+- [Install sensenet ECM Workspaces from NuGet](https://github.com/SenseNet/sn-workspaces/tree/master/docs/install-workspaces-from-nuget.md)
