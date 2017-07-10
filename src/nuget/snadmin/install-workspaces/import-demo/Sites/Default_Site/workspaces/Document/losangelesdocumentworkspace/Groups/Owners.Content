@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentMetaData>
+  <ContentType>Group</ContentType>
+  <ContentName>Owners</ContentName>
+  <Fields>
+    <Members>
+      <Path>/Root/IMS/BuiltIn/Portal/Administrators</Path>
+    </Members>
+    <DisplayName><![CDATA[$ContentTemplates,Owners]]></DisplayName>
+  </Fields>
+  <Permissions>
+    <Clear />
+  </Permissions>
+</ContentMetaData>

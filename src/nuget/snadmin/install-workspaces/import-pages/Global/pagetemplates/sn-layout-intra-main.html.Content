@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentMetaData>
+  <ContentType>PageTemplate</ContentType>
+  <ContentName>sn-layout-intra-main.html</ContentName>
+  <Fields>
+    <Binary attachment="sn-layout-intra-main.html" />
+    <DisplayName>sn-layout-intra-main.html</DisplayName>
+  </Fields>
+  <Permissions>
+    <Clear />
+  </Permissions>
+</ContentMetaData>

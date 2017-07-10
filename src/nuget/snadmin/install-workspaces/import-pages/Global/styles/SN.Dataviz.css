@@ -1,0 +1,106 @@
+﻿.forecaststates.row .columns,
+.revenuestates.row .columns,
+.KPIstates.row .columns,
+.revenueLabels.row .columns,
+.salesKPIexpectedRev.row .columns,
+.goalLabels.row .columns,
+.chanceLabels.row .columns,
+.actualLabels.row .columns,
+.salesKPIprogress.row .columns {
+    text-align: center;
+    font-size: 13px;
+}
+
+    .revenueLabels.row .columns:first-of-type,
+    .salesKPIexpectedRev.row .columns:first-of-type,
+    .goalLabels.row .columns:first-of-type,
+    .chanceLabels.row .columns:first-of-type,
+    .actualLabels.row .columns:first-of-type,
+    .salesKPIprogress.row .columns:first-of-type {
+        font-weight: bold;
+        text-align: left;
+    }
+
+h3 {
+    margin-left: 20px;
+    text-align: left;
+}
+
+.notext {
+    text-indent: -999px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+/* maps */
+
+.datavizContainer {
+    background: #fff;
+    padding: 20px 0;
+}
+
+.map {
+    position: relative;
+    width: 100%;
+    height: 400px;
+}
+
+.datavizContainer h1 {
+    font-weight: normal;
+    margin: 0 20px 20px;
+    font-size: 1.6875rem;
+}
+
+/*piechart*/
+
+.ExpectedRevenuePieChart {
+    position: relative;
+}
+
+    .ExpectedRevenuePieChart .percentage {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        font-size: 5em;
+        color: #2980b9;
+        margin-left: -.9em;
+        margin-top: -.2em;
+        font-family: 'Open sans';
+        font-weight: 300;
+    }
+
+.sn-layout-intra .sn-column.sn-columnhalf {
+    vertical-align: top;
+}
+
+@media all and (max-width: 1620px) and (min-width: 1024px) {
+    h5 {
+        font-size: 1.1rem;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}
+
+@media all and (max-width: 1400px) and (min-width: 1024px) {
+    .row .columns {
+        font-size: 11px;
+    }
+}
+
+.sn-portlet.sn-usercontrolportlet {
+    background: #fff;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+canvas.salesForecast, canvas.salesRevenues, canvas.salesKPI {
+    margin-bottom: 15px;
+}
+
+.salesKPI2020 div {
+    padding: 0 !important;
+}
+
+.ExpectedRevenuePieChart h1 {
+    margin-bottom: 15px;
+}

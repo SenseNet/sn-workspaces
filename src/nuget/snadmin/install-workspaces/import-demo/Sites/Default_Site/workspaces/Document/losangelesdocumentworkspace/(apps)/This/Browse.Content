@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentMetaData>
+  <ContentType>Page</ContentType>
+  <ContentName>Browse</ContentName>
+  <Fields>
+    <PageTemplateNode>
+      <Path>/Root/Global/pagetemplates/sn-layout-intra.html</Path>
+    </PageTemplateNode>
+    <PersonalizationSettings attachment="Browse.PersonalizationSettings" />
+    <Icon><![CDATA[browse]]></Icon>
+    <RequiredPermissions>Open</RequiredPermissions>
+  </Fields>
+  <Permissions>
+    <Clear />
+    <Identity path="/Root/IMS/BuiltIn/Portal/Visitor">
+      <See>Allowed</See>
+      <Preview>Allowed</Preview>
+      <PreviewWithoutWatermark>Allowed</PreviewWithoutWatermark>
+      <PreviewWithoutRedaction>Allowed</PreviewWithoutRedaction>
+      <Open>Allowed</Open>
+      <RunApplication>Allowed</RunApplication>
+    </Identity>
+    <Identity path="/Root/IMS/BuiltIn/Portal/Everyone">
+      <See>Allowed</See>
+      <Preview>Allowed</Preview>
+      <PreviewWithoutWatermark>Allowed</PreviewWithoutWatermark>
+      <PreviewWithoutRedaction>Allowed</PreviewWithoutRedaction>
+      <Open>Allowed</Open>
+      <RunApplication>Allowed</RunApplication>
+    </Identity>
+  </Permissions>
+</ContentMetaData>

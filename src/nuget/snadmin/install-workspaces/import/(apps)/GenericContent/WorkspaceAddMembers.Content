@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentMetaData>
+  <ContentType>GenericODataApplication</ContentType>
+  <ContentName>WorkspaceAddMembers</ContentName>
+  <Fields>
+    <ClassName><![CDATA[SenseNet.Portal.Workspaces.WorkspaceApi]]></ClassName>
+    <MethodName><![CDATA[AddMembers]]></MethodName>
+    <Parameters><![CDATA[string data]]></Parameters>
+    <DisplayName><![CDATA[WorkspaceAddMembers]]></DisplayName>
+    <Description><![CDATA[]]></Description>
+    <Scenario><![CDATA[]]></Scenario>
+    <ActionTypeName><![CDATA[GenericODataOperation]]></ActionTypeName>
+  </Fields>
+  <Permissions>
+    <Clear />
+  </Permissions>
+</ContentMetaData>

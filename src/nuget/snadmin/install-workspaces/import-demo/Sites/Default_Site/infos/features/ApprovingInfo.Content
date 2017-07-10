@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentMetaData>
+  <ContentType>HTMLContent</ContentType>
+  <ContentName>ApprovingInfo</ContentName>
+  <Fields>
+    <HTMLFragment><![CDATA[<div class="sn-infobox"><h1 class="sn-content-title sn-article-title">
+
+  <img src="/Root/Global/images/icons/32/info.png" class="sn-icon sn-icon_32" alt="">Approval</h1>
+  <div style="margin: 20px;">
+    
+  <img src="/Root/Sites/Default_Site/infos/images/approving_enabled.png" style="float:left;margin-right: 20px;" width="270" />
+    <p>
+      <b>In this workspace, we’ve turned basic <a href="http://wiki.sensenet.com/index.php?title=Versioning_and_approval" target="_blank">approval</a> on. This way, you can ensure that no document or any other content type goes live, until the appropriate person took a look.</b>
+      <br />Upon creating or changing a content item, you’ll see that a little checkbox appears next to its icon -this indicates that the content item needs to be approved. Bring down it dropdown menu and choose ‘Publish’. If you have also turned versioning on, this action will elevate the version to the consecutive major number.</p>
+    <div class="clear"></div>
+  </div></div>]]></HTMLFragment>
+  </Fields>
+  <Permissions>
+    <Clear />
+  </Permissions>
+</ContentMetaData>

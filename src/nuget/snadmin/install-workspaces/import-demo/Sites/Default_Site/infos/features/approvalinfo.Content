@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentMetaData>
+  <ContentType>Article</ContentType>
+  <ContentName>approvalinfo</ContentName>
+  <Fields>
+    <Body>
+  <![CDATA[<div class="sn-infobox">
+<h1 class="sn-content-title sn-article-title"><img class="sn-icon sn-icon_32" src="/Root/Global/images/icons/32/info.png" alt="" />Approval</h1>
+<p>sensenet ECM has a basic approval functionality. Regardless of the versioning mode in use, approval can be enabled to control changes.</p>
+<p>If approval is required for a certain Content, after changes has been made to the document, the system creates a version labeled &lsquo;Pending for approval&rsquo;. This version is visible only for administrators and users who have permission to Approve or Reject it. If the Content is approved, its version number is bumped according to the versioning mode, and gets the A ("approved") flag.</p>
+<p>This method provides an extra line of defense for keeping mission critical content error free.</p>
+<p><a href="http://wiki.sensenet.com/index.php?title=Versioning_and_approval" target="_blank">Learn more about Workspaces on the sensenet Wiki!</a></p>
+</div>]]></Body>
+    <VersioningMode>1</VersioningMode>
+    <InheritableVersioningMode>1</InheritableVersioningMode>
+    <ApprovingMode>1</ApprovingMode>
+    <InheritableApprovingMode>1</InheritableApprovingMode>
+  </Fields>
+  <Permissions>
+    <Clear />
+  </Permissions>
+</ContentMetaData>

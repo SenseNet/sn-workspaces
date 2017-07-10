@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentMetaData>
+  <ContentType>EventList</ContentType>
+  <ContentName>Calendar</ContentName>
+  <Fields>
+    <DisplayName><![CDATA[$ContentTemplates,Calendar]]></DisplayName>
+    <Index>2</Index>
+  </Fields>
+  <Permissions>
+    <Clear />
+  </Permissions>
+</ContentMetaData>

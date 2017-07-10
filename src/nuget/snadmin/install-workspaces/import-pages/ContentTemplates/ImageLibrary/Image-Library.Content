@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentMetaData>
+  <ContentType>ImageLibrary</ContentType>
+  <ContentName>Image-Library</ContentName>
+  <Fields>
+    <DisplayName><![CDATA[$ContentTemplates,ImageLibrary]]></DisplayName>
+    <DefaultView><![CDATA[ThumbnailView.ascx]]></DefaultView>
+  </Fields>
+  <Permissions>
+    <Clear />
+  </Permissions>
+</ContentMetaData>

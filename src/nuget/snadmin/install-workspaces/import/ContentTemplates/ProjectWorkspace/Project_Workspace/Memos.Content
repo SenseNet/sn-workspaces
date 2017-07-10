@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentMetaData>
+  <ContentType>MemoList</ContentType>
+  <ContentName>Memos</ContentName>
+  <Fields>
+    <DisplayName><![CDATA[$ContentTemplates,Memos]]></DisplayName>
+    <Index>1</Index>
+  </Fields>
+  <Permissions>
+    <Clear />
+  </Permissions>
+</ContentMetaData>

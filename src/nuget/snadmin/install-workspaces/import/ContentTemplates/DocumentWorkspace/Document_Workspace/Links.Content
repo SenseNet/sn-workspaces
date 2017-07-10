@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentMetaData>
+  <ContentType>LinkList</ContentType>
+  <ContentName>Links</ContentName>
+  <Fields>
+    <DisplayName><![CDATA[$ContentTemplates,Links]]></DisplayName>
+  </Fields>
+  <Permissions>
+    <Clear />
+  </Permissions>
+</ContentMetaData>

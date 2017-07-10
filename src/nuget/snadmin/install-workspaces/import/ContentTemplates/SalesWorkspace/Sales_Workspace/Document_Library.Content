@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentMetaData>
+  <ContentType>DocumentLibrary</ContentType>
+  <ContentName>Document_Library</ContentName>
+  <Fields>
+    <DisplayName><![CDATA[$ContentTemplates,DocumentLibrary]]></DisplayName>
+  </Fields>
+  <Permissions>
+    <Clear />
+  </Permissions>
+</ContentMetaData>

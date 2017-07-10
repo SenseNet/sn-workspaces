@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentMetaData>
+  <ContentType>Task</ContentType>
+  <ContentName>Praesent sagittis ante</ContentName>
+  <Fields>
+    <StartDate>0001-01-01T00:00:00</StartDate>
+    <DueDate>2015-09-15T22:00:00</DueDate>
+    <AssignedTo />
+    <Priority>2</Priority>
+    <Status>active</Status>
+    <TaskCompletion>0</TaskCompletion>
+    <Description><![CDATA[<p><span style="font-family: Arial, Helvetica, sans; font-size: 11px; line-height: 14px; text-align: justify;">Praesent sagittis ante eget condimentum accumsan. Nunc vel dapibus ex, id lobortis est. Ut viverra, felis eget porta hendrerit, lacus velit viverra metus, consectetur pulvinar nibh purus vel felis. Nulla feugiat tincidunt feugiat. Praesent tempus, ligula sed commodo dapibus, velit nisl rhoncus purus, tempor tempor.</span></p>]]></Description>
+    <ModifiedBy>
+      <Path>/Root/IMS/BuiltIn/Portal/Admin</Path>
+    </ModifiedBy>
+    <ModificationDate>2015-07-23T13:33:02.76</ModificationDate>
+    <Owner>
+      <Path>/Root/IMS/BuiltIn/Portal/Admin</Path>
+    </Owner>
+    <DisplayName><![CDATA[Praesent sagittis ante]]></DisplayName>
+    <Hidden>false</Hidden>
+    <Index>0</Index>
+    <EnableLifespan>false</EnableLifespan>
+    <ValidFrom>0001-01-01T00:00:00</ValidFrom>
+    <ValidTill>0001-01-01T00:00:00</ValidTill>
+    <CreatedBy>
+      <Path>/Root/IMS/BuiltIn/Portal/Admin</Path>
+    </CreatedBy>
+    <CreationDate>2015-07-23T13:33:02.74</CreationDate>
+    <TrashDisabled>false</TrashDisabled>
+    <IsTaggable>false</IsTaggable>
+    <IsRateable>false</IsRateable>
+    <RateAvg>0.0000</RateAvg>
+    <RateCount>0</RateCount>
+  </Fields>
+  <Permissions>
+    <Clear />
+  </Permissions>
+</ContentMetaData>

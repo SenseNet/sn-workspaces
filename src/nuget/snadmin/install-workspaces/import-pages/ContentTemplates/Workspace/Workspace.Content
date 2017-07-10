@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentMetaData>
+  <ContentType>Workspace</ContentType>
+  <ContentName>Workspace</ContentName>
+  <Fields>
+    <DisplayName><![CDATA[$ContentTemplates,Workspace]]></DisplayName>
+    <IsActive>true</IsActive>
+  </Fields>
+  <Permissions>
+    <Clear />
+  </Permissions>
+</ContentMetaData>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentMetaData>
+  <ContentType>ListView</ContentType>
+  <ContentName>Slider.ascx</ContentName>
+  <Fields>
+    <Columns><![CDATA[<Columns>
+  <Column title="Bináris" fullName="File.Binary" bindingName="File_Binary" index="1" width="0" hAlign="" wrap="" modifiers="" />
+  <Column title="Olvasható név" fullName="GenericContent.DisplayName" bindingName="GenericContent_DisplayName" index="2" width="0" hAlign="" wrap="" modifiers="main" />
+  <Column title="Utolsó módosító" fullName="GenericContent.ModifiedBy" bindingName="GenericContent_ModifiedBy" index="3" width="0" hAlign="" wrap="" modifiers="" />
+  <Column title="Módosítás dátuma" fullName="GenericContent.ModificationDate" bindingName="GenericContent_ModificationDate" index="4" width="0" hAlign="" wrap="" modifiers="" />
+</Columns>]]></Columns>
+    <Binary attachment="Slider.ascx" />
+    <DisplayName><![CDATA[$List,Slider]]></DisplayName>
+    <FilterXml><![CDATA[+TypeIs:Image]]></FilterXml>
+  </Fields>
+  <Permissions>
+    <Clear />
+  </Permissions>
+</ContentMetaData>

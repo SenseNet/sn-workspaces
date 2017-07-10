@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="view.xslt"?>
+<Resources>
+  <ResourceClass name="Ctd-SalesWorkspace">
+    <Languages>
+      <Language cultureName="en">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Sales workspace</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>A workspace for sales-oriented cooperation.</value>
+        </data>
+        <data name="Manager-DisplayName" xml:space="preserve">
+          <value>Responsible salesperson</value>
+        </data>
+        <data name="Customer-DisplayName" xml:space="preserve">
+          <value>Customer</value>
+        </data>
+        <data name="ExpectedRevenue-DisplayName" xml:space="preserve">
+          <value>Expected revenue</value>
+        </data>
+        <data name="ChanceOfWinning-DisplayName" xml:space="preserve">
+          <value>Chance of winning</value>
+        </data>
+        <data name="StartDate-DisplayName" xml:space="preserve">
+          <value>Start date</value>
+        </data>
+        <data name="Deadline-DisplayName" xml:space="preserve">
+          <value>Deadline for submission</value>
+        </data>
+        <data name="Contacts-DisplayName" xml:space="preserve">
+          <value>Contacts</value>
+        </data>
+        <data name="Notes-DisplayName" xml:space="preserve">
+          <value>Notes</value>
+        </data>
+        <data name="Completion-DisplayName" xml:space="preserve">
+          <value>Progress</value>
+        </data>
+        <data name="ContractSigned-DisplayName" xml:space="preserve">
+          <value>Contract signed</value>
+        </data>
+        <data name="ContractSignedDate-DisplayName" xml:space="preserve">
+          <value>Contract signed date</value>
+        </data>
+        <data name="ClientContact-DisplayName" xml:space="preserve">
+          <value>Client contact</value>
+        </data>
+        <data name="ClientContact-Desctription" xml:space="preserve">
+          <value>The person responsible for the project</value>
+        </data>
+        <data name="WebsiteUrl-DisplayName" xml:space="preserve">
+          <value>Website url</value>
+        </data>
+        <data name="Country-DisplayName" xml:space="preserve">
+          <value>Country</value>
+        </data>
+        <data name="TimeZone-DisplayName" xml:space="preserve">
+          <value>Time Zone (UTC)</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Sales munkaterület</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>Sales lehetőségek kezelésére szolgáló munkaterület (workspace).</value>
+        </data>
+        <data name="Manager-DisplayName" xml:space="preserve">
+          <value>Felelős</value>
+        </data>
+        <data name="Customer-DisplayName" xml:space="preserve">
+          <value>Ügyfél</value>
+        </data>
+        <data name="ExpectedRevenue-DisplayName" xml:space="preserve">
+          <value>Várható bevétel</value>
+        </data>
+        <data name="ChanceOfWinning-DisplayName" xml:space="preserve">
+          <value>Esély</value>
+        </data>
+        <data name="StartDate-DisplayName" xml:space="preserve">
+          <value>Kezdődátum</value>
+        </data>
+        <data name="Deadline-DisplayName" xml:space="preserve">
+          <value>Benyújtás határideje</value>
+        </data>
+        <data name="Contacts-DisplayName" xml:space="preserve">
+          <value>Elérhetőségek</value>
+        </data>
+        <data name="Notes-DisplayName" xml:space="preserve">
+          <value>Emlékeztetők</value>
+        </data>
+        <data name="Completion-DisplayName" xml:space="preserve">
+          <value>Állapot</value>
+        </data>
+        <data name="ContractSigned-DisplayName" xml:space="preserve">
+          <value>Aláírt szerződés</value>
+        </data>
+        <data name="ContractSignedDate-DisplayName" xml:space="preserve">
+          <value>Szerződés aláírásának dátuma</value>
+        </data>
+        <data name="ClientContact-DisplayName" xml:space="preserve">
+          <value>Ügyféloldali projektfelelős</value>
+        </data>
+        <data name="ClientContact-Desctription" xml:space="preserve">
+          <value></value>
+        </data>
+        <data name="WebsiteUrl-DisplayName" xml:space="preserve">
+          <value>Weboldal url-je</value>
+        </data>
+        <data name="Country-DisplayName" xml:space="preserve">
+          <value>Ország</value>
+        </data>
+        <data name="TimeZone-DisplayName" xml:space="preserve">
+          <value>Időzóna (UTC)</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+  <ResourceClass name="Ctd-SalesWorkspaceFolder">
+    <Languages>
+      <Language cultureName="en">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Sales Workspace Folder</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>This is the container type for Sales Workspace.</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="DisplayName" xml:space="preserve">
+          <value>Sales munkaterület gyűjtő</value>
+        </data>
+        <data name="Description" xml:space="preserve">
+          <value>Sales munkaterületek gyűjtője.</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+</Resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>SenseNet.Workspaces.Install</id>
+    <version>7.0.0-beta1</version>
+    <title>sensenet ECM install package for workspace-related content.</title>
+    <authors>kavics,aniko,laci,borsi,lajos,tusmester</authors>
+    <owners>Sense/Net</owners>
+    <licenseUrl>https://github.com/SenseNet/sn-workspaces/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/SenseNet/sn-workspaces</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/SenseNet/sn-resources/master/images/sn-icon/sensenet-icon-64.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>The sensenet ECM Workspaces package contains install content for workspace-related content templates and views.</description>
+    <releaseNotes>Initial release.</releaseNotes>
+    <copyright>Copyright © Sense/Net Inc.</copyright>
+    <tags>sensenet ecm ecms</tags>
+    <dependencies>
+      <dependency id="SenseNet.Services.Install" version="7.0.0-beta3" />
+      <dependency id="SenseNet.SnAdmin" version="1.4.3" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="..\nuget\readme.txt" target="" />
+    <file src="..\nuget\content\**" target="content" />
+    <file src="bin\Release\SenseNet.Workspaces.*" target="lib\net451" />
+  </files>
+</package>

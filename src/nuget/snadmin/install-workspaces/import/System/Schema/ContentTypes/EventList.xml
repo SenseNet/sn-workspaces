@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentType name="EventList" parentType="ItemList" handler="SenseNet.ContentRepository.ContentList" xmlns="http://schemas.sensenet.com/SenseNet/ContentRepository/ContentTypeDefinition">
+  <DisplayName>$Ctd-EventList,DisplayName</DisplayName>
+  <Description>$Ctd-EventList,Description</Description>
+  <Icon>ContentList</Icon>
+  <AllowedChildTypes>CalendarEvent</AllowedChildTypes>
+  <Fields>
+    <Field name="DisplayName" type="ShortText">
+      <DisplayName>$Ctd-EventList,DisplayName-DisplayName</DisplayName>
+    </Field>
+    <Field name="Name" type="ShortText">
+      <Configuration>
+        <DefaultValue>Calendar</DefaultValue>
+      </Configuration>
+    </Field>
+    <Field name="ContentListDefinition" type="LongText">
+      <Configuration>
+        <VisibleBrowse>Hide</VisibleBrowse>
+        <VisibleEdit>Hide</VisibleEdit>
+        <VisibleNew>Hide</VisibleNew>
+      </Configuration>
+    </Field>
+    <Field name="RegistrationFolder" type="Reference">
+      <DisplayName>$Ctd-EventList,RegistrationFolder-DisplayName</DisplayName>
+      <Configuration>
+        <AllowMultiple>false</AllowMultiple>
+        <AllowedTypes>
+          <Type>Folder</Type>
+        </AllowedTypes>
+      </Configuration>
+    </Field>
+    <Field name="Version" type="Version">
+      <Configuration>
+        <VisibleBrowse>Hide</VisibleBrowse>
+        <VisibleEdit>Hide</VisibleEdit>
+        <VisibleNew>Hide</VisibleNew>
+        <ReadOnly>true</ReadOnly>
+      </Configuration>
+    </Field>
+    <Field name="InheritableVersioningMode" type="InheritableVersioningMode">
+      <Configuration>
+        <VisibleBrowse>Hide</VisibleBrowse>
+        <VisibleEdit>Hide</VisibleEdit>
+        <VisibleNew>Hide</VisibleNew>
+      </Configuration>
+    </Field>
+    <Field name="InheritableApprovingMode" type="InheritableApprovingMode">
+      <Configuration>
+        <VisibleBrowse>Hide</VisibleBrowse>
+        <VisibleEdit>Hide</VisibleEdit>
+        <VisibleNew>Hide</VisibleNew>
+      </Configuration>
+    </Field>
+  </Fields>
+</ContentType>

@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentMetaData>
+  <ContentType>CalendarEvent</ContentType>
+  <ContentName>Integer_feugiat</ContentName>
+  <Fields>
+    <DisplayName><![CDATA[Integer feugiat]]></DisplayName>
+    <Location><![CDATA[semper cursus]]></Location>
+    <StartDate>2010-02-19T10:00:00</StartDate>
+    <EndDate>2010-02-19T15:00:00</EndDate>
+    <Description><![CDATA[Integer feugiat, lectus a aliquam vulputate, lorem nibh lobortis lacus, non ultricies orci nisi nec ligula. Sed sed dignissim leo. Ut eget arcu mi. Donec hendrerit, elit et semper cursus, velit tellus cursus erat, eu laoreet lacus urna eget odio.]]></Description>
+    <AllDay>false</AllDay>
+    <RequiresRegistration>false</RequiresRegistration>
+    <NotificationMode></NotificationMode>
+    <MaxParticipants>0</MaxParticipants>
+    <NumParticipants>0</NumParticipants>
+    <Index>0</Index>
+    <EventType></EventType>
+    <ModifiedBy>
+      <Path>/Root/IMS/BuiltIn/Portal/Admin</Path>
+    </ModifiedBy>
+    <ModificationDate>2015-07-23T08:13:52.34</ModificationDate>
+    <Owner>
+      <Path>/Root/IMS/BuiltIn/Portal/Admin</Path>
+    </Owner>
+    <Hidden>false</Hidden>
+    <EnableLifespan>false</EnableLifespan>
+    <ValidFrom>0001-01-01T00:00:00</ValidFrom>
+    <ValidTill>0001-01-01T00:00:00</ValidTill>
+    <CreatedBy>
+      <Path>/Root/IMS/BuiltIn/Portal/Admin</Path>
+    </CreatedBy>
+    <CreationDate>2015-07-23T08:13:52.34</CreationDate>
+    <TrashDisabled>false</TrashDisabled>
+    <IsTaggable>false</IsTaggable>
+    <IsRateable>false</IsRateable>
+    <RateAvg>0.0000</RateAvg>
+    <RateCount>0</RateCount>
+  </Fields>
+  <Permissions>
+    <Clear />
+  </Permissions>
+</ContentMetaData>
