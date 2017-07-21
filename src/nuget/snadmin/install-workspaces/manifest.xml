@@ -1,4 +1,4 @@
-<Package type='Tool'>
+<Package type='Install'>
   <Id>SenseNet.Workspaces</Id>
   <Description>sensenet ECM Workspaces 7.0 (beta)</Description>
   <ReleaseDate>2017-04-05</ReleaseDate>
