@@ -1,7 +1,10 @@
-﻿Compress-Archive -Path "..\..\src\nuget\snadmin\install-workspaces\*" -Force -CompressionLevel Optimal -DestinationPath "..\..\src\nuget\content\Admin\tools\install-workspaces.zip"
+﻿$srcPath = [System.IO.Path]::GetFullPath(($PSScriptRoot + '\..\..\src'))
+$installPackagePath = "$srcPath\nuget\content\Admin\tools\install-workspaces.zip"
 
-nuget pack ..\..\src\SenseNet.Workspaces\Workspaces.nuspec -properties Configuration=Release
-nuget pack ..\..\src\SenseNet.Workspaces\Workspaces.Install.nuspec -properties Configuration=Release
+# delete existing packages
+Remove-Item $PSScriptRoot\*.nupkg
 
-# nuget.exe push -Source "SenseNet" -ApiKey VSTS SenseNet.Workspaces.7.0.0-beta2.nupkg
-# nuget.exe push -Source "SenseNet" -ApiKey VSTS SenseNet.Workspaces.Install.7.0.0-beta2.nupkg
+Compress-Archive -Path "..\..\src\nuget\snadmin\install-workspaces\*" -Force -CompressionLevel Optimal -DestinationPath $installPackagePath
+
+nuget pack $srcPath\SenseNet.Workspaces\Workspaces.nuspec -properties Configuration=Release -OutputDirectory $PSScriptRoot
+nuget pack $srcPath\SenseNet.Workspaces\Workspaces.Install.nuspec -properties Configuration=Release -OutputDirectory $PSScriptRoot
