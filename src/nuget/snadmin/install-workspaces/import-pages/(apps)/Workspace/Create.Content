@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentMetaData>
+  <ContentType>Page</ContentType>
+  <ContentName>Create</ContentName>
+  <Fields>
+    <PageTemplateNode>
+      <Path>/Root/Global/pagetemplates/sn-layout-dialog.html</Path>
+    </PageTemplateNode>
+    <PersonalizationSettings attachment="Create.PersonalizationSettings" />
+    <DisplayName><![CDATA[$Action,Create]]></DisplayName>
+    <Icon><![CDATA[createother]]></Icon>
+    <RequiredPermissions>OpenMinor;AddNew</RequiredPermissions>
+  </Fields>
+  <Permissions>
+    <Clear />
+  </Permissions>
+</ContentMetaData>
