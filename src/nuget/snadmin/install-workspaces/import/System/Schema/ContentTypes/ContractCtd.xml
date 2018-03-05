@@ -52,7 +52,7 @@
     <Field name="Keywords" type="LongText">
       <DisplayName>$Ctd-Contract,Keywords</DisplayName>
       <Indexing>
-        <Analyzer>Lucene.Net.Analysis.WhitespaceAnalyzer</Analyzer>
+        <Analyzer>Whitespace</Analyzer>
       </Indexing>
     </Field>
     <Field name="Description" type="LongText">
