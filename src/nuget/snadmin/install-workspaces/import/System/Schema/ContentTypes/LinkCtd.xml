@@ -30,7 +30,7 @@
       <DisplayName>$Ctd-Link,Description-DisplayName</DisplayName>
       <Description>$Ctd-Link,Description-Description</Description>
       <Indexing>
-        <Analyzer>Lucene.Net.Analysis.Standard.StandardAnalyzer</Analyzer>
+        <Analyzer>Standard</Analyzer>
       </Indexing>
       <Configuration>
         <ControlHint>sn:RichText</ControlHint>

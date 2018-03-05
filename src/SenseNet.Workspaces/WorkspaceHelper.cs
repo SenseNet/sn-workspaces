@@ -115,7 +115,7 @@ namespace SenseNet.Portal.Workspaces
             if (ws == null)
                 return false;
 
-            return ContentQuery.Query(SafeQueries.InTreeAndTypeIs,
+            return ContentQuery.Query(ContentRepository.SafeQueries.InTreeAndTypeIs,
                 new QuerySettings { EnableAutofilters = FilterStatus.Disabled },
                 ws.Path, typeof(Group).Name).Nodes.OfType<Group>().Any(user.IsInGroup);
         }

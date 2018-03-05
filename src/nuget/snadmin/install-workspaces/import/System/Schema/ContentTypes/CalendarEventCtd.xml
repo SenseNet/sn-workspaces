@@ -37,7 +37,7 @@
       <DisplayName>$Ctd-CalendarEvent,Lead-DisplayName</DisplayName>
       <Description>$Ctd-CalendarEvent,Lead-Description</Description>
       <Indexing>
-        <Analyzer>Lucene.Net.Analysis.Standard.StandardAnalyzer</Analyzer>
+        <Analyzer>Standard</Analyzer>
       </Indexing>
       <Configuration>
         <ControlHint>sn:RichText</ControlHint>
@@ -114,7 +114,7 @@
       <DisplayName>$Ctd-CalendarEvent,EmailTemplate-DisplayName</DisplayName>
       <Description>$Ctd-CalendarEvent,EmailTemplate-Description</Description>
       <Indexing>
-        <Analyzer>Lucene.Net.Analysis.Standard.StandardAnalyzer</Analyzer>
+        <Analyzer>Standard</Analyzer>
       </Indexing>
       <Configuration>
         <VisibleBrowse>Hide</VisibleBrowse>
@@ -126,7 +126,7 @@
       <DisplayName>$Ctd-CalendarEvent,EmailTemplateSubmitter-DisplayName</DisplayName>
       <Description>$Ctd-CalendarEvent,EmailTemplateSubmitter-Description</Description>
       <Indexing>
-        <Analyzer>Lucene.Net.Analysis.Standard.StandardAnalyzer</Analyzer>
+        <Analyzer>Standard</Analyzer>
       </Indexing>
       <Configuration>
         <VisibleBrowse>Hide</VisibleBrowse>
