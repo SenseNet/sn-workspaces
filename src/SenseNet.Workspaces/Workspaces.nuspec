@@ -2,23 +2,23 @@
 <package >
   <metadata>
     <id>SenseNet.Workspaces</id>
-    <version>7.1.0</version>
-    <title>sensenet ECM Workspaces</title>
-    <authors>kavics,aniko,laci,lajos,tusmester</authors>
+    <version>7.2.0</version>
+    <title>sensenet Workspaces</title>
+    <authors>kavics,aniko,lajos,tusmester</authors>
     <owners>Sense/Net</owners>
     <licenseUrl>https://github.com/SenseNet/sn-workspaces/blob/master/LICENSE</licenseUrl>
     <projectUrl>https://github.com/SenseNet/sn-workspaces</projectUrl>
     <iconUrl>https://raw.githubusercontent.com/SenseNet/sn-resources/master/images/sn-icon/sensenet-icon-64.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>The sensenet ECM Workspaces package contains APIs for working with workspaces.</description>
+    <description>The sensenet Workspaces package contains APIs for working with workspaces.</description>
     <releaseNotes>See release notes on GitHub.</releaseNotes>
     <copyright>Copyright © Sense/Net Inc.</copyright>
     <tags>sensenet ecm ecms workspace</tags>
     <dependencies>
-      <dependency id="SenseNet.Services" version="7.1.0" />
+      <dependency id="SenseNet.Services" version="7.2.0" />
     </dependencies>
   </metadata>
   <files>
-    <file src="bin\Release\SenseNet.Workspaces.*" target="lib\net451" />
+    <file src="bin\Release\SenseNet.Workspaces.*" target="lib\net461" />
   </files>
 </package>
