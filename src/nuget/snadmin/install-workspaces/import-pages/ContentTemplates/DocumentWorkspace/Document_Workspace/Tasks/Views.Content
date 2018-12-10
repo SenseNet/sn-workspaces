@@ -75,12 +75,8 @@
       <SetPermissions>Allowed</SetPermissions>
       <RunApplication>Allowed</RunApplication>
     </Identity>
-    <Identity path="/Root/IMS/BuiltIn/Portal/IdentifiedUsers">
+    <Identity path="/Root/IMS/BuiltIn/Portal/Everyone">
       <See>Allowed</See>
-      <Preview>Allowed</Preview>
-      <PreviewWithoutWatermark>Allowed</PreviewWithoutWatermark>
-      <PreviewWithoutRedaction>Allowed</PreviewWithoutRedaction>
-      <Open>Allowed</Open>
       <RunApplication>Allowed</RunApplication>
     </Identity>
   </Permissions>

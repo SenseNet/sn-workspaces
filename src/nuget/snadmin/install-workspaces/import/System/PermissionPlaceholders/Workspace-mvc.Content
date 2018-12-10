@@ -8,8 +8,7 @@
   </Fields>
   <Permissions>
     <Clear />
-    <Identity path="/Root/IMS/BuiltIn/Portal/IdentifiedUsers">
-      <See>Allow</See>
+    <Identity path="/Root/IMS/BuiltIn/Portal/Everyone">
       <RunApplication>Allow</RunApplication>
     </Identity>
   </Permissions>
