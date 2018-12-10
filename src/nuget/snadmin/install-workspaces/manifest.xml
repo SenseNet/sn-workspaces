@@ -54,6 +54,36 @@
           </IfContentExists>
         </Then>
       </If>
+
+      <!-- Give permissions for these new types to users. -->
+
+      <EditPermissions 
+        Path="/Root/System/Schema/ContentTypes/GenericContent/Folder/Workspace/DocumentWorkspace"
+        Identity="/Root/IMS/BuiltIn/Portal/Everyone" Allow="See" />
+      <EditPermissions
+        Path="/Root/System/Schema/ContentTypes/GenericContent/Folder/Workspace/ProjectWorkspace"
+        Identity="/Root/IMS/BuiltIn/Portal/Everyone" Allow="See" />
+      <EditPermissions
+        Path="/Root/System/Schema/ContentTypes/GenericContent/Folder/Workspace/SalesWorkspace"
+        Identity="/Root/IMS/BuiltIn/Portal/Everyone" Allow="See" />
+
+      <EditPermissions
+        Path="/Root/System/Schema/ContentTypes/GenericContent/Folder/DocumentWorkspaceFolder"
+        Identity="/Root/IMS/BuiltIn/Portal/Everyone" Allow="See" />
+      <EditPermissions
+        Path="/Root/System/Schema/ContentTypes/GenericContent/Folder/ProjectWorkspaceFolder"
+        Identity="/Root/IMS/BuiltIn/Portal/Everyone" Allow="See" />
+      <EditPermissions 
+        Path="/Root/System/Schema/ContentTypes/GenericContent/Folder/SalesWorkspaceFolder"
+        Identity="/Root/IMS/BuiltIn/Portal/Everyone" Allow="See" />
+
+      <EditPermissions
+        Path="/Root/System/Schema/ContentTypes/GenericContent/File/Contract"
+        Identity="/Root/IMS/BuiltIn/Portal/Everyone" Allow="See" />
+      <EditPermissions
+        Path="/Root/System/Schema/ContentTypes/GenericContent/File/OrderForm"
+        Identity="/Root/IMS/BuiltIn/Portal/Everyone" Allow="See" />
+
     </Phase>
   </Steps>
 </Package>
