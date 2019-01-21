@@ -229,7 +229,7 @@ display: inline-block;
 
 <script>
     $(function () {
-        var maxChunkSize = '<%= BlobStorageConfiguration.BinaryChunkSize %>';
+        var maxChunkSize = '<%= SenseNet.Configuration.BlobStorage.BinaryChunkSize %>';
         var currentContent = '<%=currentContentPath%>';
         var uploadEnabled = '<% PortalContext.Current.ContextNode.Security.HasPermission(SenseNet.ContentRepository.User.Current, SenseNet.ContentRepository.Storage.Security.PermissionType.Save);%>';
 
@@ -385,7 +385,7 @@ display: inline-block;
         }
         else {
             var uploaddata = [];
-            var maxChunkSize = <%= BlobStorageConfiguration.BinaryChunkSize %>;
+            var maxChunkSize = <%= SenseNet.Configuration.BlobStorage.BinaryChunkSize %>;
             
             var unSupportedBrowserButtons = '<div class="sn-panel sn-buttons sn-upload-buttons">\
                                         <div id="sn-upload-startbutton" class="sn-submit sn-notdisabled sn-upload-button sn-submit-disabled">\
