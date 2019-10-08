@@ -10,6 +10,7 @@
     <DisplayName><![CDATA[$Action,Create]]></DisplayName>
     <Icon><![CDATA[createother]]></Icon>
     <RequiredPermissions>OpenMinor;AddNew</RequiredPermissions>
+	<Scenario><![CDATA[WorkspaceActions]]></Scenario>
   </Fields>
   <Permissions>
     <Clear />
