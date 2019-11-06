@@ -17,10 +17,10 @@
       <li>If Microsoft Office 2007 is installed, you can only use this action in Internet Explorer.</li>
       <li>You’ll have to enter your credentials in a pop-up window again. You can avoid this pop-up in the future if you check “remember my credentials”.</li>
       <li>The login name/password pairs for the demo users are the following: Alba Monday (manager): <i>alba/alba</i>, Mike Scroll (developer): <i>mike/mike</i>, Admin (administrator): <i>admin/admin</i></li>
-      <li>Sense/Net requires <i>Windows authentication</i> <b>or</b> <i>SSL HTTP connection</i> in order to manage Office documents.</li>
+      <li>sensenet requires <i>Windows authentication</i> <b>or</b> <i>SSL HTTP connection</i> in order to manage Office documents.</li>
   </ul>
     <p>Choose 'Preview' from the dropdown menu to peek inside the documents without having to download them.</p>
-    <p>If you have a photo to upload that you want to edit beforehand, click 'Edit and upload' to use Sense/Net's powerful photo editing features.</p>
+    <p>If you have a photo to upload that you want to edit beforehand, click 'Edit and upload' to use sensenet's powerful photo editing features.</p>
     <div class="clear"></div>
   </div>
   </div>]]></HTMLFragment>

@@ -250,7 +250,7 @@
           <value>Contract</value>
         </data>
         <data name="Description" xml:space="preserve">
-          <value>An example content type to demonstrate the ECMS features of Sense/Net.</value>
+          <value>An example content type to demonstrate the features of sensenet.</value>
         </data>
         <data name="ContractId" xml:space="preserve">
           <value>Contract ID</value>
@@ -282,7 +282,7 @@
           <value>Szerződés</value>
         </data>
         <data name="Description" xml:space="preserve">
-          <value>Példa tartalom típus a Sense/Net ECMS funkcióinak bemutatására.</value>
+          <value>Példa tartalom típus a sensenet funkcióinak bemutatására.</value>
         </data>
         <data name="ContractId" xml:space="preserve">
           <value>Szerződés azonosító</value>
