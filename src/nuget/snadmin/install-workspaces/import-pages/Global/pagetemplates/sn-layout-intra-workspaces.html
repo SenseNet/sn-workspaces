@@ -2,7 +2,7 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="<%=snLang%>" xml:lang="<%=snLang%>">
 <head>
-    <title><%= (SenseNet.Portal.Virtualization.PortalContext.Current.Workspace != null) ? SenseNet.ContentRepository.Content.Create(SenseNet.Portal.Virtualization.PortalContext.Current.Workspace).DisplayName : "Sense/Net" %></title>
+    <title><%= (SenseNet.Portal.Virtualization.PortalContext.Current.Workspace != null) ? SenseNet.ContentRepository.Content.Create(SenseNet.Portal.Virtualization.PortalContext.Current.Workspace).DisplayName : "sensenet" %></title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta http-equiv="imagetoolbar" content="no" />
@@ -26,7 +26,7 @@
             <div class="sn-layout-head-left">
                 <%= (SenseNet.Portal.Virtualization.PortalContext.Current.Workspace != null) ? SenseNet.Portal.UI.IconHelper.RenderIconTag(SenseNet.Portal.Virtualization.PortalContext.Current.Workspace.Icon, null, 32) : "" %>
                 <h2><a href="/" title="Home"><span><%=HttpContext.GetGlobalResourceObject("Portal", "CompanyHome")%></span></a></h2>
-                <h1><%= (SenseNet.Portal.Virtualization.PortalContext.Current.Workspace != null) ? HttpUtility.HtmlEncode(SenseNet.ContentRepository.Content.Create(SenseNet.Portal.Virtualization.PortalContext.Current.Workspace).DisplayName) : "Sense/Net" %></h1>
+                <h1><%= (SenseNet.Portal.Virtualization.PortalContext.Current.Workspace != null) ? HttpUtility.HtmlEncode(SenseNet.ContentRepository.Content.Create(SenseNet.Portal.Virtualization.PortalContext.Current.Workspace).DisplayName) : "sensenet" %></h1>
             </div>
             <div class="sn-layout-head-right">
                 <div class="sn-logo">

@@ -7,7 +7,7 @@
   <![CDATA[<div class="sn-infobox">
 <h1 class="sn-content-title sn-article-title"><img class="sn-icon sn-icon_32" src="/Root/Global/images/icons/32/info.png" alt="" />Document linking</h1>
 <p>In this workspace, we configured a special reference field to link documents that belong together. In order to do this, we created a custom content type, the Contract. Edit the properties of one of them in the list below and see the extra fields we added.</p>
-<p><a href="http://wiki.sensenet.com/index.php?title=Content_Type_Definition" target="_blank">Learn more about Workspaces on the Sense/Net Wiki!</a></p>
+<p><a href="http://wiki.sensenet.com/index.php?title=Content_Type_Definition" target="_blank">Learn more about Workspaces on the sensenet Wiki!</a></p>
 </div>]]></Body>
     <VersioningMode>1</VersioningMode>
     <InheritableVersioningMode>1</InheritableVersioningMode>

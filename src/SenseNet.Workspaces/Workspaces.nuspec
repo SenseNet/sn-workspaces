@@ -13,7 +13,7 @@
     <description>The sensenet Workspaces package contains APIs for working with workspaces.</description>
     <releaseNotes>See release notes on GitHub.</releaseNotes>
     <copyright>Copyright © Sense/Net Inc.</copyright>
-    <tags>sensenet ecm ecms workspace</tags>
+    <tags>sensenet workspace</tags>
     <dependencies>
       <dependency id="SenseNet.Services" version="7.6" />
     </dependencies>

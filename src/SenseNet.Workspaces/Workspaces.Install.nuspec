@@ -13,7 +13,7 @@
     <description>The sensenet Workspaces install package contains install content for workspace-related content templates and views.</description>
     <releaseNotes>See release notes on GitHub.</releaseNotes>
     <copyright>Copyright © Sense/Net Inc.</copyright>
-    <tags>sensenet ecm ecms workspace</tags>
+    <tags>sensenet workspace</tags>
     <dependencies>
       <dependency id="SenseNet.Services.Install" version="7.6" />
       <dependency id="SenseNet.SnAdmin" version="1.4.4" />

@@ -8,7 +8,7 @@
 <h1 class="sn-content-title sn-article-title"><img class="sn-icon sn-icon_32" src="/Root/Global/images/icons/32/info.png" alt="" />Versioning</h1>
 <p>Versioning, also known as revision control, is the management of changes to documents and other information stored in a file system or repository.</p>
 <p>The main goal of versioning is to prevent information from being overwritten or deleted during everyday work with documents. Changes are kept track of, and a mechanism is offered to restore a particular document to a previous version.</p>
-<p>The versioning system of sensenet ECM also provides mechanisms for keeping the published version of a document under heavy editing visible to outside users, while you continue to work on the latest, draft version.</p>
+<p>The versioning system of sensenet also provides mechanisms for keeping the published version of a document under heavy editing visible to outside users, while you continue to work on the latest, draft version.</p>
 <p><a href="http://wiki.sensenet.com/index.php?title=Versioning_and_approval" target="_blank">Learn more about Workspaces on the sensenet Wiki!</a></p>
 </div>]]></Body>
     <VersioningMode>1</VersioningMode>
